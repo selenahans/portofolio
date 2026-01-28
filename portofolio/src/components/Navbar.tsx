@@ -1,0 +1,39 @@
+import {useState, useEffect} from 'react';
+
+const Navbar = () => {
+  const [active, setActive] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 150) {
+        setActive(true);
+      } else {
+        setActive(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  },[]);
+  return (
+    <div className="navbar py-8 flex justify-between items-center">
+      <div className="logo">
+        <h1 className="text-3xl font-bold p-1.5 md:bg-transparent md:text-white text-black">Porto</h1>
+      </div>
+      <ul className={`menu flex font-light items-center gap-4  md:static fixed left-1/2 -translate-x-1/2 md:translate-x-0
+      md:opacity-100  bg-white/30 backdrop-blur-md p-4 rounded-br-2x1 rounded-bl-2xl md:bg-transparent transition-all md:transition-none ${active ? 'top-0 opacity-100' : '-top-10 opacity-0'}`}>
+        <li>
+          <a className="font-medium sm:text-lg text-base" href="#home">home</a>
+        </li>
+        <li>
+          <a className="font-medium sm:text-lg text-base" href="#project">project</a>
+        </li>
+        <li>
+          <a className="font-medium sm:text-lg text-base" href="#about">about me</a>
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+export default Navbar;
