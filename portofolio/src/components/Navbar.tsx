@@ -1,10 +1,13 @@
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
+
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 150) {
+
+      if (window.scrollY > 50) {
         setActive(true);
       } else {
         setActive(false);
@@ -14,39 +17,60 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  },[]);
+  }, []);
+
+  const textColorClass = active ? 'text-[#F5F5F0]' : 'text-[#675D54]';
+  const hoverColorClass = active ? 'hover:text-white' : 'hover:text-black';
 
   return (
-    /* Perubahan Utama: 
-       - Menambahkan 'left-1/2 -translate-x-1/2' untuk posisi tengah.
-       - Menambahkan 'w-[95%] max-w-[1200px]' agar lebar tidak full (chrome/desktop aman).
-       - Menambahkan 'top-4' agar ada jarak dari atas (floating effect).
-       - Menambahkan 'rounded-full' atau 'rounded-2xl' agar lebih modern.
-    */
-    <div className={`navbar fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-[1200px] py-4 px-8 flex justify-between items-center z-40 transition-all duration-300 rounded-2xl 
-      ${active ? 'bg-white/20 backdrop-blur-lg shadow-lg' : 'bg-transparent'}`}>
-      
-      <div className="logo">
-        <h1 className="text-2xl font-bold text-[#675D54]">Selena's Portofolio</h1>
+    <nav
+      className={`fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-[1200px] py-4 px-6 md:px-8 flex flex-col md:flex-row justify-between items-center z-40 transition-all duration-300 rounded-2xl border border-transparent
+      ${
+        active || isMobileOpen
+          ? 'bg-[#675D54]/85 backdrop-blur-lg shadow-xl border-white/10' // Warna Custom dengan Opacity 85% + Blur
+          : 'bg-transparent'
+      }`}
+    >
+      <div className="w-full flex justify-between items-center">
+
+        <div className="logo">
+          <h1 className={`text-2xl font-bold transition-colors duration-300 ${isMobileOpen ? 'text-[#F5F5F0]' : textColorClass}`}>
+            Selena's Portofolio
+          </h1>
+        </div>
+
+
+        <button
+          className="md:hidden block focus:outline-none"
+          onClick={() => setIsMobileOpen(!isMobileOpen)}
+        >
+
+          <div className={`w-6 h-6 flex flex-col justify-center gap-1.5 ${isMobileOpen || active ? 'text-[#F5F5F0]' : 'text-[#675D54]'}`}>
+            <span className={`block w-full h-0.5 rounded-full transition-all duration-300 bg-current ${isMobileOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+            <span className={`block w-full h-0.5 rounded-full transition-all duration-300 bg-current ${isMobileOpen ? 'opacity-0' : ''}`}></span>
+            <span className={`block w-full h-0.5 rounded-full transition-all duration-300 bg-current ${isMobileOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+          </div>
+        </button>
       </div>
 
-      <ul className={`menu flex font-light items-center gap-4 md:static fixed left-1/2 -translate-x-1/2 md:translate-x-0
-      md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-2xl md:bg-transparent transition-all md:transition-none z-40 
-      ${active ? 'top-0 opacity-100' : '-top-10 opacity-0'}`}>
-        <li>
-          <a className="font-medium sm:text-lg text-base hover:text-white transition-colors" href="#home">home</a>
-        </li>
-        <li>
-          <a className="font-medium sm:text-lg text-base hover:text-white transition-colors" href="#tentang">project</a>
-        </li>
-        <li>
-          <a className="font-medium sm:text-lg text-base hover:text-white transition-colors" href="#project">project</a>
-        </li>
-        <li>
-          <a className="font-medium sm:text-lg text-base hover:text-white transition-colors" href="#about">about me</a>
-        </li>
+      <ul
+        className={`flex flex-col md:flex-row items-center gap-6 md:gap-8 w-full md:w-auto transition-all duration-500 ease-in-out overflow-hidden md:overflow-visible
+        ${isMobileOpen ? 'max-h-[300px] opacity-100 mt-6 pb-2' : 'max-h-0 opacity-0 md:max-h-full md:opacity-100 md:mt-0 md:pb-0'}`}
+      >
+        {['home', 'project', 'about'].map((item) => (
+          <li key={item} className="w-full md:w-auto text-center">
+            <a
+              href={`#${item}`}
+              className={`font-medium text-lg capitalize transition-colors duration-300
+              ${isMobileOpen ? 'text-[#F5F5F0] hover:text-white' : `${textColorClass} ${hoverColorClass}`}`}
+              onClick={() => setIsMobileOpen(false)} 
+            >
+              {item}
+            </a>
+          </li>
+        ))}
       </ul>
-    </div>
+    </nav>
   );
 };
 
