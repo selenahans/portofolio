@@ -17,7 +17,26 @@ import Tools8 from "/assets/tools/github.png";
 import Tools9 from "/assets/tools/ai.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
-
+export const listSpeciality = [
+  {
+    id: 1,
+    gambar: "/assets/speciality/ui-ux.webp",
+    judul: "UI / UX Design",
+    desk: "I enjoy designing clean, intuitive, and user-centered interfaces that focus on usability and visual harmony.",
+  },
+  {
+    id: 2,
+    gambar: "/assets/speciality/web-dev.webp",
+    judul: "Web Development",
+    desk: "Building responsive and efficient web applications using modern frameworks and best practices.",
+  },
+  {
+    id: 3,
+    gambar: "/assets/speciality/graphic-design.webp",
+    judul: "Graphic Design",
+    desk: "Creating visual assets that communicate ideas clearly through typography, color, and layout.",
+  },
+];
 export const listTools = [
   {
     id: 1,

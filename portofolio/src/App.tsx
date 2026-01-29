@@ -5,13 +5,14 @@
 import DataImage from "./data";
 import { listTools } from "./data";
 import { listProyek } from "./data";
+import { listSpeciality } from "./data";
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
       {/* <h1 className="text-3xl text-red-600 text-shadow-black">hao</h1> */}
-      <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
+      <div className="hero grid md:grid-cols-2 items-center pt-32 xl:gap-0 gap-6 grid-cols-1 " id="tentang">
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <h1 className="text-5xl/tight font-bold mb-6">Hi, I'm Selena Hans</h1>
           {/* <div className="flex items-center gap-3 mb-6 bg-amber-300 w-fit p-4 rounded-2xl">
@@ -57,96 +58,47 @@ function App() {
           loading="lazy"
         />
       </div>
-      <div className="tentang mt-32 py-10" id="tentang">
-        <div
-          className="w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg"
+      <div className="tentang mt-15 py-10" id="speciality">
+        <h1
+          className="text-4xl font-bold mb-10 text-center"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          <img
-            src={DataImage.HeroImage}
-            alt="Image"
-            loading="lazy"
-            className="w-12 rounded-md mb-10 sm:hidden"
-          />
-          <p className="text-base/loose mb-10">LALALLALALALA</p>
-          <div className="flex items-center justify-between">
-            <img
-              src={DataImage.HeroImage}
-              alt="image"
-              loading="lazy"
-              className="w-12 rounded-md sm:block hidden"
-            />
-            <div className="flex items-center gap-6">
+          Speciality
+        </h1>
+
+        <div className="w-4/5 mx-auto flex flex-col gap-8">
+          {listSpeciality.map((item) => (
+            <div
+              key={item.id}
+              className="flex flex-col md:flex-row items-center md:items-start gap-6 p-6 bg-[#E5DFD3] rounded-lg"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img
+                src={item.gambar}
+                alt={item.judul}
+                className="w-20 h-20 object-contain rounded-md"
+                loading="lazy"
+              />
               <div>
-                <h1 className="text-4xl mb-1">
-                  45
-                  <span className="text-violet-500">+</span>
-                </h1>
-                <p>Proyek Selesai</p>
-              </div>
-              <div>
-                <h1 className="text-4xl mb-1">
-                  45
-                  <span className="text-violet-500">+</span>
-                </h1>
-                <p>Tahun Pengalaman</p>
+                <h1 className="text-2xl font-bold mb-2">{item.judul}</h1>
+                <p className="text-base/loose opacity-70">{item.desk}</p>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="tools mt-32 ">
-          <h1
-            className="text-4xl/snug font-bold mb-4 text-center"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-once="true"
-          >
-            Tools
-          </h1>
-          <p
-            className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="300"
-            data-aos-once="true"
-          >
-            Tools yang aku pakai
-          </p>
-          <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
-            {listTools.map((tool) => (
-              <div
-                className="flex items-center  gap-2 p-3 border border-[#A39383] rounded-md hover:bg-[#F1EAD8] group "
-                key={tool.id}
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay={tool.dad}
-              >
-                <img
-                  src={tool.gambar}
-                  alt="tools image"
-                  className="w-14 bg-transparent p-1 group-hover:bg-transparent rounded-md"
-                />
-                <div>
-                  <h4 className="font-bold">{tool.nama}</h4>
-                  <p className="opacity-50">{tool.ket}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          ))}
         </div>
       </div>
 
-      <div className="proyek mt-32 py-10" id="project">
+      <div className="proyek mt-15 py-10" id="project">
         <h1
           className="text-center text-4xl font-bold mb-2"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          project
+          Recent Project
         </h1>
         <p
           className="text-base/loose text-center opacity-50"
@@ -161,7 +113,7 @@ function App() {
           {listProyek.map((proyek) => (
             <div
               key={proyek.id}
-              className="p-4 bg-zinc-800 rounded-md"
+              className="p-4 bg-[#ECE9E5] rounded-md"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay={proyek.dad}
@@ -173,7 +125,7 @@ function App() {
                 <div className="flex flex-wrap gap-2">
                   {proyek.tools.map((tool, index) => (
                     <p
-                      className="py-1 px-3 border border-zinc-500 bg-zinc-600 rounded-md font-semibold"
+                      className="py-1 px-3 border border-[#A39383] bg-[#FBF7F4] rounded-md font-semibold"
                       key={index}
                     >
                       {tool}
@@ -183,7 +135,7 @@ function App() {
                 <div className="mt-8 text-center">
                   <a
                     href="#"
-                    className="bg-violet-500 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-700"
+                    className="bg-[#E5DFD3] p-3 rounded-lg block border border-[#D3CCBF] hover:bg-[#D3CCBF]"
                   >
                     Lihat detail
                   </a>
