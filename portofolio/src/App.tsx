@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       {/* <h1 className="text-3xl text-red-600 text-shadow-black">hao</h1> */}
-      <div className="hero grid md:grid-cols-2 items-center pt-32 xl:gap-0 gap-6 grid-cols-1 " id="tentang">
+      <div className="hero grid md:grid-cols-2 items-center pt-32 xl:gap-0 gap-6 grid-cols-1 max-w-6xl mx-auto" id="tentang">
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <h1 className="text-5xl/tight font-bold mb-6">Hi, I'm Selena Hans</h1>
           {/* <div className="flex items-center gap-3 mb-6 bg-amber-300 w-fit p-4 rounded-2xl">
@@ -58,7 +58,7 @@ function App() {
           loading="lazy"
         />
       </div>
-      <div className="tentang mt-15 py-10" id="speciality">
+      <div className="tentang mt-15 py-10 max-w-7xl mx-auto" id="speciality">
         <h1
           className="text-4xl font-bold mb-10 text-center"
           data-aos="fade-up"
@@ -91,7 +91,7 @@ function App() {
         </div>
       </div>
 
-      <div className="proyek mt-15 py-10" id="project">
+      <div className="proyek mt-15 py-10 max-w-6xl mx-auto" id="project">
         <h1
           className="text-center text-4xl font-bold mb-2"
           data-aos="fade-up"
