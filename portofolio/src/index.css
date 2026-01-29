@@ -6,5 +6,6 @@
     font-family: "Poppins", sans-serif;
     background-color: #FBF7F4;
     text-color: #232323;
+    overflow-y: scroll;
   }
 }
