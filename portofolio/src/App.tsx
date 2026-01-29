@@ -48,8 +48,8 @@ function App() {
           loading="lazy"
         />
       </div>
-      <div className="tentang mt-32 py-10">
-        <div className="w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg">
+      <div className="tentang mt-32 py-10" id="tentang">
+        <div className="w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img
             src={DataImage.HeroImage}
             alt="Image"
@@ -84,8 +84,8 @@ function App() {
         </div>
 
         <div className="tools mt-32 ">
-          <h1 className="text-4xl/snug font-bold mb-4"> tools</h1>
-          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50">
+          <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"> tools</h1>
+          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true" >
             tools yg aku pakai
           </p>
           <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
@@ -93,6 +93,7 @@ function App() {
               <div
                 className="flex items-center  gap-2 p-3 border border-zinc-800 rounded-md hover:bg-zinc-200 group "
                 key={tool.id}
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad}
               >
                 <img
                   src={tool.gambar}
@@ -109,14 +110,14 @@ function App() {
         </div>
       </div>
 
-      <div className="proyek mt-32 py-10">
-        <h1 className="text-center text-4xl font-bold mb-2">project</h1>
-        <p className="text-base/loose text-center opacity-50 ">
+      <div className="proyek mt-32 py-10" id="project">
+        <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">project</h1>
+        <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
           list project yang sudah aku buat
         </p>
         <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 ">
           {listProyek.map((proyek) => (
-            <div key={proyek.id} className="p-4 bg-zinc-800 rounded-md">
+            <div key={proyek.id} className="p-4 bg-zinc-800 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={proyek.dad}>
               <img src={proyek.gambar} alt={proyek.nama} loading="lazy" />
               <div>
                 <h1 className="text2xl font-bold my-4">{proyek.nama}</h1>
