@@ -12,7 +12,7 @@ function App() {
     <>
       {/* <h1 className="text-3xl text-red-600 text-shadow-black">hao</h1> */}
       <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
-        <div>
+        <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <div className="flex items-center gap-3 mb-6 bg-amber-300 w-fit p-4 rounded-2xl">
             <img
               src={DataImage.HeroImage}
@@ -44,7 +44,7 @@ function App() {
         <img
           src={DataImage.HeroImage}
           alt="Hero"
-          className="w-[500px] md:ml-auto"
+          className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-4s"
           loading="lazy"
         />
       </div>
@@ -188,7 +188,7 @@ function App() {
       </div> */}
 
       <div>
-        
+
       </div>
     </>
   );

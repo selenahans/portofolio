@@ -7,6 +7,8 @@ import Navbar from "./components/Navbar.tsx";
 import 'remixicon/fonts/remixicon.css';
 import Footer from "./components/Footer.tsx";
 import PreLoader from "./components/PreLoader.tsx";
+
+import 'animate.css';
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <PreLoader />
