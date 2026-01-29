@@ -8,13 +8,13 @@ const Footer = () => {
         <a href="#project">project</a>
       </div>
       <div className="flex items-center gap-3">
-        <a href="#">
+        <a href="https://github.com/selenahans">
           <i className="ri-github-fill ri-2x "></i>
         </a>
-        <a href="#">
+        <a href="https://www.instagram.com/selenahans_/">
           <i className="ri-instagram-fill ri-2x "></i>
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/selenahans/">
           <i className="ri-linkedin-fill ri-2x "></i>
         </a>
       </div>
