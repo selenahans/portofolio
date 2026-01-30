@@ -23,9 +23,7 @@ createRoot(document.getElementById("root")!).render(
     </div> */}
     <div className="container mx-auto px-8">
       <BrowserRouter>
-        <Navbar />
         <App />
-        <Footer />
       </BrowserRouter>
     </div>
   </StrictMode>,

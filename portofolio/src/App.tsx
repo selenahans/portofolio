@@ -3,10 +3,10 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 import { Route, Routes } from "react-router-dom";
-import DataImage from "./data";
-import { listTools } from "./data";
-import { listProyek } from "./data";
-import { listSpeciality } from "./data";
+// import DataImage from "./data";
+// import { listTools } from "./data";
+// import { listProyek } from "./data";
+// import { listSpeciality } from "./data";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";

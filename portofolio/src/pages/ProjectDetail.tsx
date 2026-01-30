@@ -1,7 +1,11 @@
 import { useParams } from "react-router-dom"
 // import { listProyek } from "../data"
-
+import { listTools } from "../data";
+import { listProyek } from "../data";
+import { listSpeciality } from "../data";
 const ProjectDetail = () => {
+    <>
+    </>
 //   const { id } = useParams()
 //   const project = listProyek.find(p => p.id === id)
 

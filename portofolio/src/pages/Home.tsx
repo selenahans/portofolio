@@ -115,7 +115,7 @@ const Home = () => {
               data-aos-duration="1000"
               data-aos-delay={proyek.dad}
             >
-              <img src={proyek.gambar} alt={proyek.nama} loading="lazy" />
+              <img src={proyek.gallery} alt={proyek.nama} loading="lazy" />
               <div>
                 <h1 className="text2xl font-bold my-4">{proyek.nama}</h1>
                 <p className="text-base/loose mb-4">{proyek.desk}</p>
