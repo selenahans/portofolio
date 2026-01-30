@@ -345,6 +345,8 @@ export const listProyek = [
     role: "Frontend Developer",
   },
 ];
+
+
 // const webProjects = listProyek.filter((p) =>
 //   p.category.includes(PROJECT_CATEGORY.WEB_DEV)
 // )
