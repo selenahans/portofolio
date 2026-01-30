@@ -346,6 +346,32 @@ export const listProyek = [
   },
 ];
 
+export const listEducation = [
+  {
+    id: 1,
+    institution: "Universitas Surabaya",
+    degree: "Bachelor's Degree",
+    major: "Information Systems (S.Kom)",
+    gpa: "3.90 / 4.00",
+    period: "2023 - 2027",
+    location: "Surabaya, Indonesia 🇮🇩",
+    description:
+      "Focused on information systems development, software engineering, databases, and UI/UX design with strong academic performance.",
+    gambar: "/assets/education/logo-ubaya.webp",
+  },
+    {
+    id: 2,
+    institution: "SMA Kristen Petra 2",
+    degree: "Senior High School",
+    major: "Science",
+  
+    period: "2020 - 2023",
+    location: "Surabaya, Indonesia 🇮🇩",
+    description:
+      "",
+    gambar: "/assets/education/logo-sma.webp",
+  },
+];
 
 // const webProjects = listProyek.filter((p) =>
 //   p.category.includes(PROJECT_CATEGORY.WEB_DEV)

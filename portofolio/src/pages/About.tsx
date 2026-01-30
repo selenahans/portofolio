@@ -2,6 +2,7 @@ import DataImage from "../data";
 import { listTools } from "../data";
 import { listProyek } from "../data";
 import { listSpeciality } from "../data";
+import { listEducation } from "../data";
 const About = () => {
   return (
     <>
@@ -75,7 +76,7 @@ const About = () => {
           Education
         </h1>
         <div className="w-4/5 mx-auto flex flex-col gap-8">
-          {listSpeciality.map((item) => (
+          {listEducation.map((item) => (
             <div
               key={item.id}
               className="flex flex-col md:flex-row items-center md:items-start gap-6 p-6 bg-[#E5DFD3] rounded-lg"
@@ -84,13 +85,18 @@ const About = () => {
             >
               <img
                 src={item.gambar}
-                alt={item.judul}
+                alt={item.institution}
                 className="w-20 h-20 object-contain rounded-md"
                 loading="lazy"
               />
               <div>
-                <h1 className="text-2xl font-bold mb-2">{item.judul}</h1>
-                <p className="text-base/loose opacity-70">{item.desk}</p>
+                <h1 className="text-2xl font-bold mb-2">{item.institution}</h1>
+                <p className="text-base/loose opacity-70">{item.degree}</p>
+                <p className="text-base/loose opacity-70">{item.major}</p>
+                <p className="text-base/loose opacity-70">{item.gpa}</p>
+                <p className="text-base/loose opacity-70">{item.period}</p>
+                <p className="text-base/loose opacity-70">{item.location}</p>
+                <p className="text-base/loose opacity-70">{item.description}</p>
               </div>
             </div>
           ))}
