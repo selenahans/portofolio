@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -27,7 +28,7 @@ const Navbar = () => {
       className={`fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-[1200px] py-4 px-6 md:px-8 flex flex-col md:flex-row justify-between items-center z-40 transition-all duration-300 rounded-2xl border border-transparent
       ${
         active || isMobileOpen
-          ? 'bg-[#675D54]/85 backdrop-blur-lg shadow-xl border-white/10' // Warna Custom dengan Opacity 85% + Blur
+          ? 'bg-[#675D54]/85 backdrop-blur-lg shadow-xl border-white/10' 
           : 'bg-transparent'
       }`}
     >
@@ -57,16 +58,20 @@ const Navbar = () => {
         className={`flex flex-col md:flex-row items-center gap-6 md:gap-8 w-full md:w-auto transition-all duration-500 ease-in-out overflow-hidden md:overflow-visible
         ${isMobileOpen ? 'max-h-[300px] opacity-100 mt-6 pb-2' : 'max-h-0 opacity-0 md:max-h-full md:opacity-100 md:mt-0 md:pb-0'}`}
       >
-        {['home', 'project', 'about'].map((item) => (
-          <li key={item} className="w-full md:w-auto text-center">
-            <a
-              href={`#${item}`}
+        {[
+          { label: 'home', path: '/' },
+          { label: 'project', path: '/projects' },
+          { label: 'about', path: '/about' },
+        ].map((item) => (
+          <li key={item.label} className="w-full md:w-auto text-center">
+            <Link
+              to={item.path}
               className={`font-medium text-lg capitalize transition-colors duration-300
               ${isMobileOpen ? 'text-[#F5F5F0] hover:text-white' : `${textColorClass} ${hoverColorClass}`}`}
               onClick={() => setIsMobileOpen(false)} 
             >
-              {item}
-            </a>
+              {item.label}
+            </Link>
           </li>
         ))}
       </ul>
