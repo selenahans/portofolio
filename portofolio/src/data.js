@@ -373,6 +373,58 @@ export const listEducation = [
   },
 ];
 
-// const webProjects = listProyek.filter((p) =>
-//   p.category.includes(PROJECT_CATEGORY.WEB_DEV)
-// )
+export const listExperience = [
+  {
+    id: 1,
+    title: "Teaching Assistant", // Nama Pengalaman
+    company: "Universitas Surabaya", // Tempat
+    location: "Surabaya, Indonesia", // Kota
+    period: "Aug 2025 - Jan 2026", // Rentang Waktu
+    type: "Part-time", // Jenis (Internship/Full-time/etc)
+    logo: "/assets/experience/ubaya-logo.webp",
+    
+    // Detail dalam bentuk objek list
+    details: {
+      responsibilities: [
+        "Assisting professors in delivering Database and Algorithm course materials.",
+        "Grading student assignments and providing constructive feedback.",
+        "Conducting additional tutoring sessions for students struggling with coding logic."
+      ],
+      whatILearned: [
+        "Deepening understanding of complex data structures and SQL optimization.",
+        "Improving public speaking and the ability to explain technical concepts simply.",
+        "Time management between academic responsibilities and teaching duties."
+      ],
+      impact: [
+        "Increased the average class score by 15% through intensive tutoring.",
+        "Streamlined the assignment collection process using a custom automated script."
+      ]
+    }
+  },
+  {
+    id: 2,
+    title: "Freelance Web Developer",
+    company: "Self-Employed",
+    location: "Remote",
+    period: "Jan 2024 - Present",
+    type: "Freelance",
+    logo: "/assets/experience/freelance-logo.webp",
+    
+    details: {
+      responsibilities: [
+        "Developing custom websites for small to medium enterprises (SMEs).",
+        "Translating UI/UX designs from Figma into responsive React components.",
+        "Maintaining and updating client websites to ensure high performance."
+      ],
+      whatILearned: [
+        "Mastering Tailwind CSS for rapid UI development.",
+        "Learning how to manage client expectations and project timelines independently.",
+        "Gaining experience in SEO optimization and web performance best practices."
+      ],
+      impact: [
+        "Delivered 5+ successful web projects with 100% client satisfaction.",
+        "Improved client site loading speeds by up to 40% using Next.js optimization."
+      ]
+    }
+  }
+];
