@@ -106,43 +106,67 @@ const Home = () => {
         >
           list project yang sudah aku buat
         </p>
-        <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 ">
-          {listProyek.map((proyek) => (
-            <div
-              key={proyek.id}
-              className="p-4 bg-[#ECE9E5] rounded-md"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay={proyek.dad}
-            >
-              <img src={proyek.gallery} alt={proyek.nama} loading="lazy" />
-              <div>
-                <h1 className="text2xl font-bold my-4">{proyek.nama}</h1>
-                <p className="text-base/loose mb-4">{proyek.desk}</p>
-                <div className="flex flex-wrap gap-2">
-                  {proyek.tools.map((tool, index) => (
-                    <p
-                      className="py-1 px-3 border border-[#A39383] bg-[#FBF7F4] rounded-md font-semibold"
-                      key={index}
-                    >
-                      {tool}
+
+        <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
+          {listProyek
+            // 1. Mengurutkan berdasarkan tahun terbaru
+            .sort((a, b) => b.year - a.year)
+            // 2. Mengambil hanya 3 proyek teratas
+            .slice(0, 3)
+            .map((proyek) => (
+              <a
+                href={`/projectdetail/${proyek.slug}`} // Menggunakan slug untuk navigasi
+                key={proyek.id}
+                className="group bg-[#ECE9E5] rounded-2xl overflow-hidden flex flex-col shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl cursor-pointer"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay={proyek.dad}
+              >
+                <div
+                  // key={proyek.id}
+                  className="bg-[#ECE9E5] rounded-2xl overflow-hidden flex flex-col shadow-sm"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay={proyek.dad}
+                >
+                  <div className="relative overflow-hidden h-56 flex justify-center items-center p-6">
+                    <img
+                      src={proyek.thumbnail}
+                      alt={proyek.nama}
+                      loading="lazy"
+                      className="h-full object-contain drop-shadow-xl transition-transform duration-500 group-hover:scale-110"
+                    />
+                  </div>
+                  <div className="p-6 flex flex-col flex-grow">
+                    <h1 className="text-2xl font-bold mb-3 text-gray-800">
+                      {proyek.nama}
+                    </h1>
+
+                    <p className="text-gray-600 text-sm leading-relaxed mb-6 line-clamp-3">
+                      {proyek.shortDesc}
                     </p>
-                  ))}
+
+                    {/* List Tools */}
+                    <div className="flex flex-wrap gap-3 mt-auto">
+                      {proyek.tools.map((tool, index) => (
+                        <div
+                          key={index}
+                          className="p-1.5 bg-white/50 rounded-lg border border-white/20 shadow-sm"
+                        >
+                          <img
+                            src={tool}
+                            alt="tool-icon"
+                            className="w-5 h-5 object-contain"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
-                <div className="mt-8 text-center">
-                  <a
-                    href="#"
-                    className="bg-[#E5DFD3] p-3 rounded-lg block border border-[#D3CCBF] hover:bg-[#D3CCBF]"
-                  >
-                    Lihat detail
-                  </a>
-                </div>
-              </div>
-            </div>
-          ))}
+              </a>
+            ))}
         </div>
       </div>
-
       {/* <div className="kontak mt-32 p-10">
         <h1 className="text-4xl mb-2 font-bold text-center">kontak</h1>
         <p className="text-base/loose text-center mb-10 opacity-50">

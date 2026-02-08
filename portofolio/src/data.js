@@ -138,6 +138,7 @@ export const listProyek = [
   {
     id: "website-sekolah",
     nama: "Website Sekolah",
+    slug: "website-sekolah",
     kategori: [PROJECT_CATEGORY.WEB_DEV, PROJECT_CATEGORY.UI_UX],
     thumbnail: Proyek1,
 
@@ -147,7 +148,7 @@ export const listProyek = [
     fullDesc:
       "Website sekolah ini dibuat untuk memudahkan siswa dan orang tua dalam mengakses informasi akademik, berita sekolah, dan agenda kegiatan. Fokus utama pada keterbacaan, navigasi sederhana, dan performa ringan.",
 
-    tools: ["HTML", "CSS", "JavaScript", "AOS"],
+    tools: [Tools2, Tools4, Tools6],
 
     features: [
       "Landing page informatif",
@@ -174,6 +175,7 @@ export const listProyek = [
   {
     id: "company-profile",
     nama: "Company Profile",
+    slug: "company-profile",
     kategori: [PROJECT_CATEGORY.WEB_DEV],
     thumbnail: Proyek2,
 
@@ -183,7 +185,7 @@ export const listProyek = [
     fullDesc:
       "Company profile ini dirancang untuk memperkenalkan layanan dan identitas perusahaan secara profesional dengan tampilan visual yang bersih dan modern.",
 
-    tools: ["HTML", "CSS", "JavaScript", "Swiper", "Lightbox"],
+    tools: [Tools1, Tools2, Tools3, Tools4, Tools5],
 
     features: [
       "Slider interaktif",
@@ -209,6 +211,7 @@ export const listProyek = [
   {
     id: "web-pernikahan",
     nama: "Web Pernikahan 2.0",
+    slug: "web-pernikahan",
     kategori: [PROJECT_CATEGORY.WEB_DEV, PROJECT_CATEGORY.UI_UX],
     thumbnail: Proyek3,
 
@@ -218,7 +221,7 @@ export const listProyek = [
     fullDesc:
       "Web pernikahan ini memungkinkan pasangan membagikan undangan secara digital lengkap dengan informasi acara, galeri foto, dan animasi interaktif.",
 
-    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
+    tools: [Tools1, Tools2, Tools4, Tools8],
 
     features: [
       "Single page application",
@@ -244,6 +247,7 @@ export const listProyek = [
   {
     id: "website-course",
     nama: "Website Course",
+    slug: "website-course",
     kategori: [PROJECT_CATEGORY.WEB_DEV],
     thumbnail: Proyek4,
 
@@ -253,7 +257,7 @@ export const listProyek = [
     fullDesc:
       "Website course ini dirancang untuk menampilkan materi pembelajaran, daftar kelas, dan informasi mentor dengan struktur yang jelas.",
 
-    tools: ["Vite", "ReactJS", "Bootstrap"],
+    tools: [Tools1, Tools2, Tools4, Tools8],
 
     features: [
       "Halaman kursus",
@@ -277,6 +281,7 @@ export const listProyek = [
   {
     id: "web-portfolio",
     nama: "Web Portfolio",
+    slug: "web-portfolio",
     kategori: [
       PROJECT_CATEGORY.WEB_DEV,
       PROJECT_CATEGORY.UI_UX,
@@ -290,7 +295,7 @@ export const listProyek = [
     fullDesc:
       "Portfolio ini berfungsi sebagai personal branding untuk menampilkan project, skill, dan pengalaman secara profesional.",
 
-    tools: ["HTML", "CSS", "JavaScript"],
+    tools: [Tools1, Tools2, Tools4],
 
     features: [
       "List project",
@@ -314,6 +319,7 @@ export const listProyek = [
   {
     id: "company-profile-2",
     nama: "Company Profile 2.0",
+    slug: "company-profile-2",
     kategori: [PROJECT_CATEGORY.WEB_DEV],
     thumbnail: Proyek6,
 
@@ -323,7 +329,7 @@ export const listProyek = [
     fullDesc:
       "Company profile versi terbaru dengan performa lebih baik dan animasi modern menggunakan Next.js.",
 
-    tools: ["NextJS", "TailwindCSS", "Framer Motion"],
+    tools: [Tools7, Tools4, Tools9],
 
     features: [
       "Animasi modern",

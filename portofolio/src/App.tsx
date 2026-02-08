@@ -12,6 +12,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ProjectDetail from "./pages/ProjectDetail";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
+        <Route path="/projectdetail/:slug" element={<ProjectDetail />} />
       </Routes>
 
       <Footer />
