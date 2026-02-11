@@ -17,8 +17,8 @@ import Proyek5 from "./assets/proyek/proyek5.webp";
 import Proyek6 from "./assets/proyek/proyek6.webp";
 
 export const PROJECT_CATEGORY = {
-  WEB_DEV: "web-dev",
-  UI_UX: "ui-ux",
+  WEB_DEV: "web-development",
+  UI_UX: "UI-UX",
   GRAPHIC_DESIGN: "graphic-design",
 };
 
