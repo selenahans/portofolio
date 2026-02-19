@@ -203,54 +203,79 @@ export const listEducation = [
 export const listExperience = [
   {
     id: 1,
-    title: "Teaching Assistant", // Nama Pengalaman
-    company: "Universitas Surabaya", // Tempat
-    location: "Surabaya, Indonesia", // Kota
-    period: "Aug 2025 - Jan 2026", // Rentang Waktu
-    type: "Part-time", // Jenis (Internship/Full-time/etc)
+    title: "Teaching Assistant - Operating Systems", 
+    company: "Universitas Surabaya", 
+    location: "Surabaya, Indonesia",
+    period: "Aug 2025 - Jan 2026", 
+    type: "Internship",
     logo: "/assets/experience/ubaya-logo.webp",
 
     // Detail dalam bentuk objek list
     details: {
       responsibilities: [
-        "Assisting professors in delivering Database and Algorithm course materials.",
-        "Grading student assignments and providing constructive feedback.",
-        "Conducting additional tutoring sessions for students struggling with coding logic.",
+        "Facilitated learning for 60+ students by explaining the fundamentals and architecture of Windows and Linux operating systems.",
+        "Assisted in setting up operating system via command prompt, including configuration, troubleshooting, and optimization for both Linux and Windows environments.",
       ],
       whatILearned: [
-        "Deepening understanding of complex data structures and SQL optimization.",
+        "Gained hands-on expertise in CLI-based system administration, mastering shell scripting, and environment configuration.",
         "Improving public speaking and the ability to explain technical concepts simply.",
         "Time management between academic responsibilities and teaching duties.",
       ],
       impact: [
-        "Increased the average class score by 15% through intensive tutoring.",
+        "Guided students through the end-to-end OS setup process, fostering a hands-on learning environment that translated theory into practical technical skills.",
         "Streamlined the assignment collection process using a custom automated script.",
       ],
     },
   },
   {
     id: 2,
-    title: "Freelance Web Developer",
-    company: "Self-Employed",
-    location: "Remote",
-    period: "Jan 2024 - Present",
-    type: "Freelance",
-    logo: "/assets/experience/freelance-logo.webp",
+    title: "Student Employee - Pusdakota Ubaya",
+    company: "Pusdakota Universitas Surabaya",
+    location: "Surabaya, Indonesia",
+    period: "Juli 2024 - Desember 2025",
+    type: "Internship",
+    logo: "/assets/experience/pusdakota.webp",
 
     details: {
       responsibilities: [
-        "Developing custom websites for small to medium enterprises (SMEs).",
-        "Translating UI/UX designs from Figma into responsive React components.",
-        "Maintaining and updating client websites to ensure high performance.",
+        "Visual Content Creation: Designing a wide range of visual materials for internal and external needs, including posters, infographics, social media content, and presentation assets.",
+        "Brand Identity Management: Developing and maintaining a consistent visual identity across all organizational outputs to ensure brand integrity.",
+        "Digital Presence & Collaboration: Partnering with cross-functional teams to manage and publish visual content on Pusdakota’s official website and social media platforms, driving audience engagement and reach.",
       ],
       whatILearned: [
-        "Mastering Tailwind CSS for rapid UI development.",
-        "Learning how to manage client expectations and project timelines independently.",
-        "Gaining experience in SEO optimization and web performance best practices.",
+        "Developed the ability to translate complex data into compelling infographics and layouts that resonate with diverse audiences.",
+        "Gained deep insights into maintaining brand ecosystem consistency and its role in building organizational trust.",
+        "Enhanced communication skills while working with diverse teams to align creative output.",
       ],
       impact: [
-        "Delivered 5+ successful web projects with 100% client satisfaction.",
-        "Improved client site loading speeds by up to 40% using Next.js optimization.",
+        "Produced high-quality assets that improved the delivery of organizational messages across all platforms.",
+        "Successfully unified Pusdakota’s visual presence, resulting in a more professional and recognizable public image.",
+      ],
+    },
+  },
+  {
+    id: 3,
+    title: "Teaching Assistant - Ph", 
+    company: "Universitas Surabaya", 
+    location: "Surabaya, Indonesia",
+    period: "Aug 2025 - Jan 2026", 
+    type: "Internship",
+    logo: "/assets/experience/ubaya-logo.webp",
+
+    // Detail dalam bentuk objek list
+    details: {
+      responsibilities: [
+        "Facilitated learning for 60+ students by explaining the fundamentals and architecture of Windows and Linux operating systems.",
+        "Assisted in setting up operating system via command prompt, including configuration, troubleshooting, and optimization for both Linux and Windows environments.",
+      ],
+      whatILearned: [
+        "Gained hands-on expertise in CLI-based system administration, mastering shell scripting, and environment configuration.",
+        "Improving public speaking and the ability to explain technical concepts simply.",
+        "Time management between academic responsibilities and teaching duties.",
+      ],
+      impact: [
+        "Guided students through the end-to-end OS setup process, fostering a hands-on learning environment that translated theory into practical technical skills.",
+        "Streamlined the assignment collection process using a custom automated script.",
       ],
     },
   },
