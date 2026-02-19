@@ -1,14 +1,14 @@
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
-import Tools10 from "/assets/tools/canva.png";
-import Tools11 from "/assets/tools/figma.png";
+import vscode from "/assets/tools/vscode.png";
+import reactjs from "/assets/tools/reactjs.png";
+import nextjs from "/assets/tools/nextjs.png";
+import tailwind from "/assets/tools/tailwind.png";
+import bootstrap from "/assets/tools/bootstrap.png";
+import javascript from "/assets/tools/js.png";
+import nodejs from "/assets/tools/nodejs.png";
+import github from "/assets/tools/github.png";
+import illustrator from "/assets/tools/ai.png"; // Biasanya 'ai' merujuk ke Adobe Illustrator
+import canva from "/assets/tools/canva.png";
+import figma from "/assets/tools/figma.png";
 import Proyek1 from "./assets/proyek/proyek1.webp";
 import Proyek2 from "./assets/proyek/proyek2.webp";
 import Proyek3 from "./assets/proyek/proyek3.webp";
@@ -57,77 +57,77 @@ export const listSpeciality = [
 export const listTools = [
   {
     id: 1,
-    gambar: Tools1,
+    gambar: vscode,
     nama: "Visual Studio Code",
     ket: "Code Editor",
     dad: "100",
   },
   {
     id: 2,
-    gambar: Tools2,
+    gambar: reactjs,
     nama: "React JS",
     ket: "Framework",
     dad: "200",
   },
   {
     id: 3,
-    gambar: Tools3,
+    gambar: nextjs,
     nama: "Next JS",
     ket: "Framework",
     dad: "300",
   },
   {
     id: 4,
-    gambar: Tools4,
+    gambar: tailwind,
     nama: "Tailwind CSS",
     ket: "Framework",
     dad: "400",
   },
   {
     id: 5,
-    gambar: Tools5,
+    gambar: bootstrap,
     nama: "Bootstrap",
     ket: "Framework",
     dad: "500",
   },
   {
     id: 6,
-    gambar: Tools6,
+    gambar: javascript,
     nama: "Javascript",
     ket: "Language",
     dad: "600",
   },
   {
     id: 7,
-    gambar: Tools7,
+    gambar: nodejs,
     nama: "Node JS",
     ket: "Javascript Runtime",
     dad: "700",
   },
   {
     id: 8,
-    gambar: Tools8,
+    gambar: github,
     nama: "Github",
     ket: "Repository",
     dad: "800",
   },
   {
     id: 9,
-    gambar: Tools9,
+    gambar: illustrator,
     nama: "Adobe Illustrator",
     ket: "Design App",
     dad: "900",
   },
   {
     id: 10,
-    gambar: Tools10,
+    gambar: canva,
     nama: "Canva",
     ket: "Design App",
     dad: "1000",
   },
   {
     id: 11,
-    gambar: Tools11,
+    gambar: figma,
     nama: "Figma",
     ket: "Design App",
     dad: "1100",
@@ -146,7 +146,7 @@ export const listProyek = [
 
     fullDesc:
       "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [Tools2, Tools4, Tools6],
+    tools: [reactjs, tailwind, javascript],
 
     features: [
       "Informative and structured content presentation",
@@ -167,153 +167,11 @@ export const listProyek = [
     ],
 
     gallery: [Proyek1],
-    year: 2023,
-    role: "Frontend Developer",
+    year: 2025,
+    role: "Fullstack Developer",
   },
 
-  {
-    id: "company-profile",
-    nama: "Company Profile",
-    slug: "company-profile",
-    kategori: [PROJECT_CATEGORY.WEB_DEV],
-    thumbnail: Proyek2,
 
-    shortDesc:
-      "Website company profile profesional untuk meningkatkan branding perusahaan.",
-
-    fullDesc:
-      "Company profile ini dirancang untuk memperkenalkan layanan dan identitas perusahaan secara profesional dengan tampilan visual yang bersih dan modern.",
-
-    tools: [Tools1, Tools2, Tools3, Tools4, Tools5],
-
-    features: ["Slider interaktif", "Galeri foto", "Desain profesional"],
-
-    challenges: [
-      "Menyesuaikan desain dengan identitas brand",
-      "Optimasi tampilan visual",
-    ],
-
-    results: [
-      "Brand terlihat lebih profesional",
-      "Meningkatkan kepercayaan klien",
-    ],
-
-    gallery: [Proyek2],
-    year: 2023,
-    role: "Web Developer",
-  },
-
-  {
-    id: "web-pernikahan",
-    nama: "Web Pernikahan 2.0",
-    slug: "web-pernikahan",
-    kategori: [PROJECT_CATEGORY.WEB_DEV, PROJECT_CATEGORY.UI_UX],
-    thumbnail: Proyek3,
-
-    shortDesc:
-      "Website undangan pernikahan digital yang modern dan interaktif.",
-
-    fullDesc:
-      "Web pernikahan ini memungkinkan pasangan membagikan undangan secara digital lengkap dengan informasi acara, galeri foto, dan animasi interaktif.",
-
-    tools: [Tools1, Tools2, Tools4, Tools8],
-
-    features: ["Single page application", "Animasi halus", "Desain elegan"],
-
-    challenges: [
-      "Mengatur animasi agar tidak berlebihan",
-      "Menjaga UX tetap nyaman",
-    ],
-
-    results: [
-      "Undangan mudah dibagikan",
-      "Tampilan lebih modern dibanding undangan cetak",
-    ],
-
-    gallery: [Proyek3],
-    year: 2024,
-    role: "Frontend Developer",
-  },
-
-  {
-    id: "website-course",
-    nama: "Website Course",
-    slug: "website-course",
-    kategori: [PROJECT_CATEGORY.WEB_DEV],
-    thumbnail: Proyek4,
-
-    shortDesc:
-      "Website course online dengan layout terstruktur dan mudah dipahami.",
-
-    fullDesc:
-      "Website course ini dirancang untuk menampilkan materi pembelajaran, daftar kelas, dan informasi mentor dengan struktur yang jelas.",
-
-    tools: [Tools1, Tools2, Tools4, Tools8],
-
-    features: ["Halaman kursus", "Struktur materi jelas", "Responsive layout"],
-
-    challenges: ["Mengatur banyak konten dalam satu halaman"],
-
-    results: ["User lebih mudah menemukan materi"],
-
-    gallery: [Proyek4],
-    year: 2024,
-    role: "Frontend Developer",
-  },
-
-  {
-    id: "web-portfolio",
-    nama: "Web Portfolio",
-    slug: "web-portfolio",
-    kategori: [
-      PROJECT_CATEGORY.WEB_DEV,
-      PROJECT_CATEGORY.UI_UX,
-      PROJECT_CATEGORY.GRAPHIC_DESIGN,
-    ],
-    thumbnail: Proyek5,
-
-    shortDesc: "Portfolio personal untuk menampilkan karya dan skill.",
-
-    fullDesc:
-      "Portfolio ini berfungsi sebagai personal branding untuk menampilkan project, skill, dan pengalaman secara profesional.",
-
-    tools: [Tools1, Tools2, Tools4],
-
-    features: ["List project", "Tentang saya", "Kontak"],
-
-    challenges: ["Menyusun konten agar tidak berlebihan"],
-
-    results: ["Personal branding lebih kuat"],
-
-    gallery: [Proyek5],
-    year: 2023,
-    role: "Frontend Developer",
-  },
-
-  {
-    id: "company-profile-2",
-    nama: "Company Profile 2.0",
-    slug: "company-profile-2",
-    kategori: [PROJECT_CATEGORY.WEB_DEV],
-    thumbnail: Proyek6,
-
-    shortDesc: "Versi lanjutan company profile dengan teknologi modern.",
-
-    fullDesc:
-      "Company profile versi terbaru dengan performa lebih baik dan animasi modern menggunakan Next.js.",
-
-    tools: [Tools7, Tools4, Tools9],
-
-    features: ["Animasi modern", "SEO friendly", "High performance"],
-
-    challenges: ["Mengoptimalkan animasi"],
-
-    results: ["Website lebih cepat", "Tampilan lebih premium"],
-
-    gallery: [Proyek6],
-    year: 2024,
-    role: "Frontend Developer",
-  },
 ];
 
 export const listEducation = [
