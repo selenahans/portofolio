@@ -6,15 +6,16 @@ import bootstrap from "/assets/tools/bootstrap.png";
 import javascript from "/assets/tools/js.png";
 import nodejs from "/assets/tools/nodejs.png";
 import github from "/assets/tools/github.png";
-import illustrator from "/assets/tools/ai.png"; // Biasanya 'ai' merujuk ke Adobe Illustrator
+import illustrator from "/assets/tools/ai.png"; 
 import canva from "/assets/tools/canva.png";
 import figma from "/assets/tools/figma.png";
-import Proyek1 from "./assets/proyek/proyek1.webp";
-import Proyek2 from "./assets/proyek/proyek2.webp";
-import Proyek3 from "./assets/proyek/proyek3.webp";
-import Proyek4 from "./assets/proyek/proyek4.webp";
-import Proyek5 from "./assets/proyek/proyek5.webp";
-import Proyek6 from "./assets/proyek/proyek6.webp";
+import pusdakota from "./assets/proyek/proyek1.webp";
+
+// import Proyek2 from "./assets/proyek/proyek2.webp";
+// import Proyek3 from "./assets/proyek/proyek3.webp";
+// import Proyek4 from "./assets/proyek/proyek4.webp";
+// import Proyek5 from "./assets/proyek/proyek5.webp";
+// import Proyek6 from "./assets/proyek/proyek6.webp";
 
 export const PROJECT_CATEGORY = {
   WEB_DEV: "web-development",
@@ -170,7 +171,42 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
+  {
+    id: "student-employee-pusdakota",
+    nama: "Student Employee - Pusdakota",
+    slug: "student-employee-pusdakota",
+    kategori: [PROJECT_CATEGORY.GRAPHIC_DESIGN],
+    thumbnail: Proyek1,
 
+    shortDesc:
+      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+
+    fullDesc:
+      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+    tools: [reactjs, tailwind, javascript],
+
+    features: [
+      "Informative and structured content presentation",
+      "Smooth scroll animations for enhanced interaction",
+      "Well-organized layout and content hierarchy",
+      "Fully responsive design across all devices",
+      "Dedicated project showcase section",
+    ],
+
+    challenges: [
+      "Maintaining optimal performance despite content-heavy sections",
+      "Ensuring a clean and consistent layout on smaller screen sizes",
+    ],
+
+    results: [
+      "Improved clarity and user understanding of the portfolio content",
+      "Faster loading times",
+    ],
+
+    gallery: [Proyek1],
+    year: 2025,
+    role: "Fullstack Developer",
+  },
 
 ];
 
@@ -255,7 +291,7 @@ export const listExperience = [
   },
   {
     id: 3,
-    title: "Teaching Assistant - Ph", 
+    title: "Teaching Assistant - PBA", 
     company: "Universitas Surabaya", 
     location: "Surabaya, Indonesia",
     period: "Aug 2025 - Jan 2026", 
