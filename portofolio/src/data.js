@@ -6,16 +6,17 @@ import bootstrap from "/assets/tools/bootstrap.png";
 import javascript from "/assets/tools/js.png";
 import nodejs from "/assets/tools/nodejs.png";
 import github from "/assets/tools/github.png";
-import illustrator from "/assets/tools/ai.png"; 
+import illustrator from "/assets/tools/ai.png";
 import canva from "/assets/tools/canva.png";
 import figma from "/assets/tools/figma.png";
-import pusdakota from "./assets/proyek/proyek1.webp";
-
-// import Proyek2 from "./assets/proyek/proyek2.webp";
-// import Proyek3 from "./assets/proyek/proyek3.webp";
-// import Proyek4 from "./assets/proyek/proyek4.webp";
-// import Proyek5 from "./assets/proyek/proyek5.webp";
-// import Proyek6 from "./assets/proyek/proyek6.webp";
+import pusdakota from "./assets/proyek/graphic-design-pusdakota.webp";
+import fbeubaya from "./assets/proyek/graphic-design-fbeubaya.webp";
+import ecosrot from "./assets/proyek/ui-ux-ecosrot.webp";
+import berprogress from "./assets/proyek/ui-ux-berprogress.webp";
+import fitflow from "./assets/proyek/ui-ux-fitflow.webp";
+import producera from "./assets/proyek/ui-ux-producera.webp";
+import hijauin from "./assets/proyek/ui-ux-hijauin.webp";
+import mobft from "./assets/proyek/webdev-mobft.webp";
 
 export const PROJECT_CATEGORY = {
   WEB_DEV: "web-development",
@@ -140,7 +141,7 @@ export const listProyek = [
     nama: "Website Portofolio",
     slug: "website-portofolio",
     kategori: [PROJECT_CATEGORY.WEB_DEV, PROJECT_CATEGORY.UI_UX],
-    thumbnail: Proyek1,
+    thumbnail: pusdakota,
 
     shortDesc:
       "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
@@ -167,7 +168,7 @@ export const listProyek = [
       "Faster loading times",
     ],
 
-    gallery: [Proyek1],
+    gallery: [pusdakota],
     year: 2025,
     role: "Fullstack Developer",
   },
@@ -176,7 +177,7 @@ export const listProyek = [
     nama: "Student Employee - Pusdakota",
     slug: "student-employee-pusdakota",
     kategori: [PROJECT_CATEGORY.GRAPHIC_DESIGN],
-    thumbnail: Proyek1,
+    thumbnail: pusdakota,
 
     shortDesc:
       "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
@@ -203,11 +204,263 @@ export const listProyek = [
       "Faster loading times",
     ],
 
-    gallery: [Proyek1],
+    gallery: [pusdakota],
+    year: 2025,
+    role: "Fullstack Developer",
+  },
+  {
+    id: "ui-ux-ecosrot",
+    nama: "UI/UX Design - Ecosrot",
+    slug: "ui-ux-ecosrot",
+    kategori: [PROJECT_CATEGORY.UI_UX, PROJECT_CATEGORY.WEB_DEV],
+    thumbnail: ecosrot,
+
+    shortDesc:
+      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+
+    fullDesc:
+      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+    tools: [reactjs, tailwind, javascript],
+
+    features: [
+      "Informative and structured content presentation",
+      "Smooth scroll animations for enhanced interaction",
+      "Well-organized layout and content hierarchy",
+      "Fully responsive design across all devices",
+      "Dedicated project showcase section",
+    ],
+
+    challenges: [
+      "Maintaining optimal performance despite content-heavy sections",
+      "Ensuring a clean and consistent layout on smaller screen sizes",
+    ],
+
+    results: [
+      "Improved clarity and user understanding of the portfolio content",
+      "Faster loading times",
+    ],
+
+    gallery: [ecosrot],
+    year: 2025,
+    role: "Fullstack Developer",
+  },
+  {
+    id: "web-dev-mobft",
+    nama: "Web Development - MobFT",
+    slug: "web-dev-mobft",
+    kategori: [PROJECT_CATEGORY.WEB_DEVELOPMENT],
+    thumbnail: mobft,
+
+    shortDesc:
+      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+
+    fullDesc:
+      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+    tools: [reactjs, tailwind, javascript],
+
+    features: [
+      "Informative and structured content presentation",
+      "Smooth scroll animations for enhanced interaction",
+      "Well-organized layout and content hierarchy",
+      "Fully responsive design across all devices",
+      "Dedicated project showcase section",
+    ],
+
+    challenges: [
+      "Maintaining optimal performance despite content-heavy sections",
+      "Ensuring a clean and consistent layout on smaller screen sizes",
+    ],
+
+    results: [
+      "Improved clarity and user understanding of the portfolio content",
+      "Faster loading times",
+    ],
+
+    gallery: [mobft],
     year: 2025,
     role: "Fullstack Developer",
   },
 
+  {
+    id: "ui-ux-producera",
+    nama: "UI/UX Design - Producera",
+    slug: "ui-ux-producera",
+    kategori: [PROJECT_CATEGORY.GRAPHIC_DESIGN, PROJECT_CATEGORY.UI_UX],
+    thumbnail: producera,
+
+    shortDesc:
+      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+
+    fullDesc:
+      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+    tools: [reactjs, tailwind, javascript],
+
+    features: [
+      "Informative and structured content presentation",
+      "Smooth scroll animations for enhanced interaction",
+      "Well-organized layout and content hierarchy",
+      "Fully responsive design across all devices",
+      "Dedicated project showcase section",
+    ],
+
+    challenges: [
+      "Maintaining optimal performance despite content-heavy sections",
+      "Ensuring a clean and consistent layout on smaller screen sizes",
+    ],
+
+    results: [
+      "Improved clarity and user understanding of the portfolio content",
+      "Faster loading times",
+    ],
+
+    gallery: [producera],
+    year: 2025,
+    role: "Fullstack Developer",
+  },
+  {
+    id: "ui-ux-fitflow",
+    nama: "UI/UX Design - Fitflow",
+    slug: "ui-ux-fitflow",
+    kategori: [PROJECT_CATEGORY.GRAPHIC_DESIGN, PROJECT_CATEGORY.UI_UX],
+    thumbnail: fitflow,
+
+    shortDesc:
+      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+
+    fullDesc:
+      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+    tools: [reactjs, tailwind, javascript],
+
+    features: [
+      "Informative and structured content presentation",
+      "Smooth scroll animations for enhanced interaction",
+      "Well-organized layout and content hierarchy",
+      "Fully responsive design across all devices",
+      "Dedicated project showcase section",
+    ],
+
+    challenges: [
+      "Maintaining optimal performance despite content-heavy sections",
+      "Ensuring a clean and consistent layout on smaller screen sizes",
+    ],
+
+    results: [
+      "Improved clarity and user understanding of the portfolio content",
+      "Faster loading times",
+    ],
+
+    gallery: [fitflow],
+    year: 2025,
+    role: "Fullstack Developer",
+  },
+  {
+    id: "ui-ux-hijauin",
+    nama: "UI/UX Design - Hijauin",
+    slug: "ui-ux-hijauin",
+    kategori: [PROJECT_CATEGORY.GRAPHIC_DESIGN, PROJECT_CATEGORY.UI_UX],
+    thumbnail: hijauin,
+
+    shortDesc:
+      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+
+    fullDesc:
+      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+    tools: [reactjs, tailwind, javascript],
+
+    features: [
+      "Informative and structured content presentation",
+      "Smooth scroll animations for enhanced interaction",
+      "Well-organized layout and content hierarchy",
+      "Fully responsive design across all devices",
+      "Dedicated project showcase section",
+    ],
+
+    challenges: [
+      "Maintaining optimal performance despite content-heavy sections",
+      "Ensuring a clean and consistent layout on smaller screen sizes",
+    ],
+
+    results: [
+      "Improved clarity and user understanding of the portfolio content",
+      "Faster loading times",
+    ],
+
+    gallery: [hijauin],
+    year: 2025,
+    role: "Fullstack Developer",
+  },
+  {
+    id: "ui-ux-berprogress",
+    nama: "UI/UX Design - Berprogress",
+    slug: "ui-ux-berprogress",
+    kategori: [PROJECT_CATEGORY.UI_UX],
+    thumbnail: berprogress,
+
+    shortDesc:
+      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+
+    fullDesc:
+      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+    tools: [reactjs, tailwind, javascript],
+
+    features: [
+      "Informative and structured content presentation",
+      "Smooth scroll animations for enhanced interaction",
+      "Well-organized layout and content hierarchy",
+      "Fully responsive design across all devices",
+      "Dedicated project showcase section",
+    ],
+
+    challenges: [
+      "Maintaining optimal performance despite content-heavy sections",
+      "Ensuring a clean and consistent layout on smaller screen sizes",
+    ],
+
+    results: [
+      "Improved clarity and user understanding of the portfolio content",
+      "Faster loading times",
+    ],
+
+    gallery: [berprogress],
+    year: 2025,
+    role: "Fullstack Developer",
+  },
+      {
+    id: "graphic-design-fbeubaya",
+    nama: "Graphic Design - FBE Ubaya",
+    slug: "graphic-design-fbeubaya",
+    kategori: [PROJECT_CATEGORY.GRAPHIC_DESIGN],
+    thumbnail: fbeubaya,
+
+    shortDesc:
+      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+
+    fullDesc:
+      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+    tools: [reactjs, tailwind, javascript],
+
+    features: [
+      "Informative and structured content presentation",
+      "Smooth scroll animations for enhanced interaction",
+      "Well-organized layout and content hierarchy",
+      "Fully responsive design across all devices",
+      "Dedicated project showcase section",
+    ],
+
+    challenges: [
+      "Maintaining optimal performance despite content-heavy sections",
+      "Ensuring a clean and consistent layout on smaller screen sizes",
+    ],
+
+    results: [
+      "Improved clarity and user understanding of the portfolio content",
+      "Faster loading times",
+    ],
+
+    gallery: [fbeubaya],
+    year: 2025,
+    role: "Fullstack Developer",
+  },
 ];
 
 export const listEducation = [
@@ -239,10 +492,10 @@ export const listEducation = [
 export const listExperience = [
   {
     id: 1,
-    title: "Teaching Assistant - Operating Systems", 
-    company: "Universitas Surabaya", 
+    title: "Teaching Assistant - Operating Systems",
+    company: "Universitas Surabaya",
     location: "Surabaya, Indonesia",
-    period: "Aug 2025 - Jan 2026", 
+    period: "Aug 2025 - Jan 2026",
     type: "Internship",
     logo: "/assets/experience/ubaya-logo.webp",
 
@@ -291,10 +544,10 @@ export const listExperience = [
   },
   {
     id: 3,
-    title: "Teaching Assistant - PBA", 
-    company: "Universitas Surabaya", 
+    title: "Teaching Assistant - PBA",
+    company: "Universitas Surabaya",
     location: "Surabaya, Indonesia",
-    period: "Aug 2025 - Jan 2026", 
+    period: "Aug 2025 - Jan 2026",
     type: "Internship",
     logo: "/assets/experience/ubaya-logo.webp",
 
