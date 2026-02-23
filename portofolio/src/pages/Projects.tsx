@@ -25,6 +25,16 @@ const Projects = () => {
         >
           Project
         </h1>
+        <div
+          className="w-4/5 mx-auto mb-12 flex flex-col items-center text-center"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <p className="text-[#372922] text-lg mb-4 text-center">
+            "Selected works and technical contributions. A mix of personal experiments and collaborative open-source projects."
+          </p>
+          <div className="w-full border-b border-dashed border-slate-300"></div>
+        </div>
         <br />
         <div
           className="flex flex-wrap justify-center gap-4 mb-14"

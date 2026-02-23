@@ -84,7 +84,7 @@ const About = () => {
         </div>
       </div> */}
       <ExperienceSection listExperience={listExperience} />
-      
+
       <div></div>
       <div className="education mt-15 py-10 max-w-7xl mx-auto" id="education">
         <h1
@@ -95,6 +95,16 @@ const About = () => {
         >
           Education
         </h1>
+        <div
+          className="w-4/5 mx-auto mb-12 flex flex-col items-center text-center"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <p className="text-[#372922] text-lg mb-4 text-center">
+            A brief overview of my academic journey and formal qualifications.
+          </p>
+          <div className="w-full border-b border-dashed border-slate-300"></div>
+        </div>
         <div className="w-4/5 mx-auto flex flex-col gap-8">
           {[...listEducation]
             .sort((a, b) => b.id - a.id)
@@ -123,29 +133,29 @@ const About = () => {
                     {item.institution}
                   </h1>
 
-                  <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 text-sm md:text-base text-slate-600 mt-1">
+                  <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 text-sm md:text-base text-[#483b32] mt-1">
                     {item.degree && (
                       <span className="font-medium">{item.degree}</span>
                     )}
                     {item.degree && item.major && (
-                      <span className="text-slate-400">•</span>
+                      <span className="text-[#3D2B1F]">•</span>
                     )}
                     {item.major && <span>{item.major}</span>}
                     {(item.major || item.degree) && item.gpa && (
-                      <span className="text-slate-400">•</span>
+                      <span className="text-[#3D2B1F]">•</span>
                     )}
                     {item.gpa && (
-                      <span className="bg-white/50 px-2 py-0.5 rounded-md border border-slate-200 shadow-sm font-medium">
+                      <span className="bg-[#3D2B1F]/10 px-2 py-0.5 rounded-md border border-slate-200 shadow-sm font-medium">
                         GPA: {item.gpa}
                       </span>
                     )}
                   </div>
 
-                  <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 text-sm md:text-base text-slate-500 mt-2 opacity-80 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 text-sm md:text-base mt-2 opacity-80 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="flex items-center gap-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4 text-slate-400"
+                        className="h-4 w-4 text-[#3D2B1F]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -160,7 +170,7 @@ const About = () => {
                       {item.period && <span>{item.period}</span>}
                     </div>
                     {item.period && item.location && (
-                      <span className="text-slate-300">•</span>
+                      <span className="text-[#3D2B1F]">•</span>
                     )}
                     <div className="flex items-center gap-1">
                       <svg

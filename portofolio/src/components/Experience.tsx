@@ -27,7 +27,6 @@ interface ExperienceSectionProps {
   listExperience: Experience[];
 }
 
-// Sub-komponen untuk tiap baris pengalaman
 const ExperienceItem = ({ item, index }: ExperienceItemProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -47,7 +46,7 @@ const ExperienceItem = ({ item, index }: ExperienceItemProps) => {
             <img
               src={item.logo}
               alt={item.company}
-              className="w-12 h-12 grayscale group-hover:grayscale-0 transition-all duration-500 object-contain opacity-70 group-hover:opacity-100"
+              className="w-12 h-12 transition-all duration-500 object-contain opacity-70 group-hover:opacity-100"
             />
           </div>
         )}
@@ -67,13 +66,11 @@ const ExperienceItem = ({ item, index }: ExperienceItemProps) => {
               {item.company}
             </span>
             <span className="h-1 w-1 rounded-full bg-slate-300"></span>
-            <span className="text-xs italic text-slate-400">
+            <span className="text-xs italic text-[#3D2B1F]/40">
               {item.location}
             </span>
           </div>
         </div>
-
-        {/* Indikator */}
         <div className="text-slate-300 group-hover:text-[#3D2B1F] transition-colors">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -91,8 +88,6 @@ const ExperienceItem = ({ item, index }: ExperienceItemProps) => {
           </svg>
         </div>
       </div>
-
-      {/* Konten: Hanya menampilkan Responsibilities */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -107,9 +102,11 @@ const ExperienceItem = ({ item, index }: ExperienceItemProps) => {
                 {item.details.responsibilities.map((resp, idx) => (
                   <li
                     key={idx}
-                    className="text-[15px] text-slate-600 leading-relaxed flex gap-3 items-start"
+                    className="text-[15px] text-[#483b32] leading-relaxed flex gap-3 items-start"
                   >
-                    <span className="text-[#3D2B1F]/30 mt-1.5 shrink-0 text-[10px]">●</span>
+                    <span className="text-[#3D2B1F] mt-1.5 shrink-0 text-[10px]">
+                      ●
+                    </span>
                     {resp}
                   </li>
                 ))}
@@ -133,7 +130,16 @@ const ExperienceSection = ({ listExperience }: ExperienceSectionProps) => {
       >
         Experience
       </h1>
-
+      <div
+        className="w-4/5 mx-auto mb-12 flex flex-col items-center text-center"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <p className="text-[#372922] text-lg mb-4 text-center">
+          A timeline of my professional work and career development.
+        </p>
+        <div className="w-full border-b border-dashed border-slate-300"></div>
+      </div>
       <div className="w-4/5 mx-auto flex flex-col">
         {[...listExperience]
           .sort((a, b) => b.id - a.id)
