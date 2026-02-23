@@ -177,7 +177,7 @@ const About = () => {
                     <div className="flex items-center gap-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4 text-slate-400"
+                        className="h-4 w-4 text-[#3D2B1F]"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -203,6 +203,7 @@ const About = () => {
             ))}
         </div>
       </div>
+
       <Dauroma />
 
       {/* TOOLS -> SOON */}
