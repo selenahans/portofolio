@@ -11,17 +11,8 @@ const About = () => {
         className="hero grid md:grid-cols-2 items-center pt-32 xl:gap-0 gap-6 grid-cols-1 max-w-6xl mx-auto"
         id="tentang"
       >
-        <div className="animate__animated animate__fadeInUp animate__delay-3s">
+        <div className="animate__animated animate__fadeInUp animate__delay-2s">
           <h1 className="text-5xl/tight font-bold mb-6">Hi, I'm Selena Hans</h1>
-          {/* <div className="flex items-center gap-3 mb-6 bg-amber-300 w-fit p-4 rounded-2xl">
-            <img
-              src={DataImage.HeroImage}
-              alt="Hero"
-              className="w-10 rounded-md"
-              loading="lazy"
-            />
-            <q>lorem ipsum im so happy to see you!</q>
-          </div> */}
           <p className="text-base/loose mb-6 font-semibold">
             ● Based in Surabaya, Indonesia
           </p>
@@ -60,40 +51,20 @@ const About = () => {
         <img
           src={DataImage.HeroImage}
           alt="Hero"
-          className="w-125 md:ml-auto animate__animated animate__fadeInUp animate__delay-4s"
+          className="w-125 md:ml-auto animate__animated animate__fadeInUp animate__delay-2s"
           loading="lazy"
         />
       </div>
 
-      <div></div>
+      <div className="mt-20" data-aos="fade-up" data-aos-duration="1000">
+        <ExperienceSection listExperience={listExperience} />
+      </div>
 
-      {/* <div className="experience mt-15 py-10 max-w-7xl mx-auto" id="experience">
+      <div className="education mt-15 py-10 max-w-7xl mx-auto" id="education">
         <h1
           className="text-4xl font-bold mb-10 text-center"
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-once="true"
-        >
-          Experience
-        </h1>
-
-        <div className="w-4/5 mx-auto flex flex-col gap-8">
-          {[...listExperience]
-            .sort((a, b) => b.id - a.id)
-            .map((item) => (
-              <ExperienceItem key={item.id} item={item} />
-            ))}
-        </div>
-      </div> */}
-      <ExperienceSection listExperience={listExperience} />
-
-      <div></div>
-      <div className="education mt-15 py-10 max-w-7xl mx-auto" id="education">
-        <h1
-          className="text-4xl font-bold mb-10 text-center"
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-          data-aos-once="true"
         >
           Education
         </h1>
@@ -101,6 +72,7 @@ const About = () => {
           className="w-4/5 mx-auto mb-12 flex flex-col items-center text-center"
           data-aos="fade-up"
           data-aos-delay="200"
+          data-aos-duration="1000"
         >
           <p className="text-[#372922] text-lg mb-4 text-center">
             A brief overview of my academic journey and formal qualifications.
@@ -204,19 +176,9 @@ const About = () => {
         </div>
       </div>
 
-      <Dauroma />
-
-      {/* TOOLS -> SOON */}
-      {/* <div className="tools mt-15 py-10 max-w-7xl mx-auto" id="tools">
-        <h1
-          className="text-4xl font-bold mb-10 text-center"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-once="true"
-        >
-          Tools
-        </h1>
-      </div> */}
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <Dauroma />
+      </div>
     </>
   );
 };

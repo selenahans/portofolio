@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 // import { listTools } from "./data";
 // import { listProyek } from "./data";
 // import { listSpeciality } from "./data";
+import ScrollToTop from "./components/ScrollToTop";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>

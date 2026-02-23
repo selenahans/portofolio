@@ -11,22 +11,12 @@ const getYearValue = (year: string | number) => {
 const Home = () => {
   return (
     <>
-      {/* <h1 className="text-3xl text-red-600 text-shadow-black">hao</h1> */}
       <div
         className="hero grid md:grid-cols-2 items-center pt-32 xl:gap-0 gap-6 grid-cols-1 max-w-6xl mx-auto"
         id="tentang"
       >
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <h1 className="text-5xl/tight font-bold mb-6">Hi, I'm Selena Hans</h1>
-          {/* <div className="flex items-center gap-3 mb-6 bg-amber-300 w-fit p-4 rounded-2xl">
-            <img
-              src={DataImage.HeroImage}
-              alt="Hero"
-              className="w-10 rounded-md"
-              loading="lazy"
-            />
-            <q>lorem ipsum im so happy to see you!</q>
-          </div> */}
           <p className="text-base/loose mb-6 font-semibold">
             ● Based in Surabaya, Indonesia
           </p>
@@ -54,7 +44,7 @@ const Home = () => {
         <img
           src={DataImage.HeroImage}
           alt="Hero"
-          className="w-125 md:ml-auto animate__animated animate__fadeInUp animate__delay-4s"
+          className="w-125 md:ml-auto animate__animated animate__fadeInUp animate__delay-3s"
           loading="lazy"
         />
       </div>
@@ -112,13 +102,11 @@ const Home = () => {
 
         <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
           {listProyek
-            // 1. Mengurutkan berdasarkan tahun terbaru
             .sort((a, b) => getYearValue(b.year) - getYearValue(a.year))
-            // 2. Mengambil hanya 3 proyek teratas
             .slice(0, 3)
             .map((proyek) => (
               <a
-                href={`/projectdetail/${proyek.slug}`} // Menggunakan slug untuk navigasi
+                href={`/projectdetail/${proyek.slug}`}
                 key={proyek.id}
                 className="group bg-[#ECE9E5] rounded-2xl overflow-hidden flex flex-col shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl cursor-pointer"
                 data-aos="fade-up"
@@ -126,7 +114,6 @@ const Home = () => {
                 data-aos-delay={"dad" in proyek ? proyek.dad : 0}
               >
                 <div
-                  // key={proyek.id}
                   className="bg-[#ECE9E5] rounded-2xl overflow-hidden flex flex-col shadow-sm"
                   data-aos="fade-up"
                   data-aos-duration="1000"
@@ -148,8 +135,6 @@ const Home = () => {
                     <p className="text-gray-600 text-sm leading-relaxed mb-6 line-clamp-3">
                       {proyek.shortDesc}
                     </p>
-
-                    {/* List Tools */}
                     <div className="flex flex-wrap gap-3 mt-auto">
                       {proyek.tools.map((tool, index) => (
                         <div
@@ -170,47 +155,6 @@ const Home = () => {
             ))}
         </div>
       </div>
-      {/* <div className="kontak mt-32 p-10">
-        <h1 className="text-4xl mb-2 font-bold text-center">kontak</h1>
-        <p className="text-base/loose text-center mb-10 opacity-50">
-          let's connect
-        </p>
-        <form action="">
-          <div>
-            <div>
-              <label>nama lengkap</label>
-              <input
-                type="text"
-                name="nama"
-                placeholder="masukkan nama"
-                required
-              />
-            </div>
-            <div>
-              <label>email</label>
-              <input
-                type="email"
-                name="email"
-                placeholder="masukkan email"
-                required
-              />
-            </div>
-            <div>
-              <label htmlFor="pesan">pesan</label>
-              <textarea
-                name="pesan"
-                id="pesan"
-                cols="30"
-                rows="10"
-                placeholder="masukkan pesan"
-              ></textarea>
-            </div>
-            <div>
-              <button type="submit">Kirim</button>
-            </div>
-          </div>
-        </form>
-      </div> */}
 
       <div></div>
     </>
