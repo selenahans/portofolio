@@ -629,11 +629,11 @@ export const listProyek = [
 
 export const listEducation = [
   {
-    id: 1,
+    id: 2,
     institution: "Universitas Surabaya",
     degree: "Bachelor's Degree",
     major: "Information Systems (S.Kom)",
-    gpa: "3.90 / 4.00",
+    gpa: "3.922 / 4.00",
     period: "2023 - 2027",
     location: "Surabaya, Indonesia 🇮🇩",
     description:
@@ -641,7 +641,7 @@ export const listEducation = [
     gambar: "/assets/education/logo-ubaya.webp",
   },
   {
-    id: 2,
+    id: 1,
     institution: "SMA Kristen Petra 2",
     degree: "Senior High School",
     major: "Science",

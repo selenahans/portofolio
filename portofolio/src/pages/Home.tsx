@@ -1,7 +1,13 @@
 import DataImage from "../data";
-import { listTools } from "../data";
 import { listProyek } from "../data";
 import { listSpeciality } from "../data";
+
+const getYearValue = (year: string | number) => {
+  if (typeof year === "number") return year;
+  const parsedYear = parseInt(year, 10);
+  return Number.isNaN(parsedYear) ? 0 : parsedYear;
+};
+
 const Home = () => {
   return (
     <>
@@ -48,7 +54,7 @@ const Home = () => {
         <img
           src={DataImage.HeroImage}
           alt="Hero"
-          className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-4s"
+          className="w-125 md:ml-auto animate__animated animate__fadeInUp animate__delay-4s"
           loading="lazy"
         />
       </div>
@@ -107,7 +113,7 @@ const Home = () => {
         <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
           {listProyek
             // 1. Mengurutkan berdasarkan tahun terbaru
-            .sort((a, b) => b.year - a.year)
+            .sort((a, b) => getYearValue(b.year) - getYearValue(a.year))
             // 2. Mengambil hanya 3 proyek teratas
             .slice(0, 3)
             .map((proyek) => (
@@ -117,14 +123,14 @@ const Home = () => {
                 className="group bg-[#ECE9E5] rounded-2xl overflow-hidden flex flex-col shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl cursor-pointer"
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay={proyek.dad}
+                data-aos-delay={"dad" in proyek ? proyek.dad : 0}
               >
                 <div
                   // key={proyek.id}
                   className="bg-[#ECE9E5] rounded-2xl overflow-hidden flex flex-col shadow-sm"
                   data-aos="fade-up"
                   data-aos-duration="1000"
-                  data-aos-delay={proyek.dad}
+                  data-aos-delay={"dad" in proyek ? proyek.dad : 0}
                 >
                   <div className="relative overflow-hidden h-56 flex justify-center items-center p-6">
                     <img
@@ -134,7 +140,7 @@ const Home = () => {
                       className="h-full object-contain drop-shadow-xl transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>
-                  <div className="p-6 flex flex-col flex-grow">
+                  <div className="p-6 flex flex-col grow">
                     <h1 className="text-2xl font-bold mb-3 text-gray-800">
                       {proyek.nama}
                     </h1>

@@ -58,7 +58,7 @@ const PreLoader = () => {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
           /* Hex #F9F7F4 adalah perkiraan warna cream dari gambar yang kamu kirim */
-          className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#F9F7F4]"
+          className="fixed inset-0 z-9999 flex items-center justify-center bg-[#F9F7F4]"
         >
           <div className="flex overflow-hidden text-7xl font-bold tracking-tighter text-[#3D2B1F]">
             {/* Huruf S - Dari Bawah */}
