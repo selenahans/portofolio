@@ -153,38 +153,38 @@ export const listProyek = [
     nama: "Website Portofolio",
     slug: "website-portofolio",
     kategori: [PROJECT_CATEGORY.WEB_DEV, PROJECT_CATEGORY.UI_UX],
-    thumbnail: pusdakota,
+    thumbnail: portofolioImg,
 
     shortDesc:
-      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+      "A dynamic and highly responsive personal portfolio website built to showcase my professional journey, creative projects, and dual expertise in design and development.",
 
     fullDesc:
-      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+      "This personal portfolio website was meticulously crafted from scratch to serve as a digital showcase of my professional identity. Built with modern web technologies and heavily utilizing Tailwind CSS, the platform emphasizes a clean, minimalist, yet engaging UI/UX design. The development process involved translating custom design mockups into a fully responsive front-end. It features smooth scrolling, interactive animations, and a well-structured content hierarchy to ensure an optimal user experience across all devices. This project stands as a testament to my ability to bridge the gap between aesthetic design and functional code.",
     tools: [reactjs, tailwind, javascript],
 
     features: [
-      "Informative and structured content presentation",
-      "Smooth scroll animations for enhanced interaction",
-      "Well-organized layout and content hierarchy",
-      "Fully responsive design across all devices",
-      "Dedicated project showcase section",
+      "Custom-built responsive UI tailored specifically for personal branding",
+      "Smooth scroll animations and interactive elements for enhanced engagement",
+      "Structured project showcase with detailed and categorized case studies",
+      "Clean, maintainable codebase utilizing Tailwind CSS utility classes",
+      "Optimized performance ensuring fast load times across desktop and mobile",
     ],
 
     challenges: [
-      "Maintaining optimal performance despite content-heavy sections",
-      "Ensuring a clean and consistent layout on smaller screen sizes",
+      "Translating custom UI/UX designs into pixel-perfect, responsive code across various screen sizes",
+      "Balancing rich animations and interactive UI elements with optimal web performance",
     ],
 
     results: [
-      "Improved clarity and user understanding of the portfolio content",
-      "Faster loading times",
+      "Successfully launched a professional digital footprint that effectively highlights my technical and design skills",
+      "Achieved seamless cross-device compatibility and a highly intuitive user browsing experience",
     ],
 
-    gallery: [pusdakota],
-    year: 2025,
-    role: "Fullstack Developer",
+    gallery: [portofolioImg],
+    year: 2026,
+    role: "Front-End Developer & UI/UX Designer",
   },
-  // PUSDAKOTA
+  // PUSDAKOTA V
   {
     id: "student-employee-pusdakota",
     nama: "Student Employee - Pusdakota",
@@ -220,44 +220,44 @@ export const listProyek = [
     year: "2024 - 2025",
     role: "Student Employee",
   },
-  // ECOSROT
+  // ECOSROT V
   {
     id: "ui-ux-ecosrot",
     nama: "UI/UX Design - Ecosrot",
     slug: "ui-ux-ecosrot",
-    kategori: [PROJECT_CATEGORY.UI_UX, PROJECT_CATEGORY.WEB_DEV],
+    kategori: [PROJECT_CATEGORY.UI_UX],
     thumbnail: ecosrot,
 
     shortDesc:
-      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+      "A user-friendly directory website designed to showcase eco-friendly local MSMEs dedicated to reducing waste and promoting sustainable products.",
 
     fullDesc:
-      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [reactjs, tailwind, javascript],
+      "ECOsrot is a directory platform designed to highlight local MSMEs (UMKM) that are committed to environmental sustainability. The platform specifically features businesses that actively minimize waste or upcycle waste materials into their products. As the UI/UX Designer, my goal was to design an intuitive and engaging interface that makes it easy for users to discover and support these eco-conscious brands. The design focuses on clear categorization, accessible information, and a seamless browsing experience to connect environmentally aware consumers with sustainable local businesses.",
+    tools: [figma],
 
     features: [
-      "Informative and structured content presentation",
-      "Smooth scroll animations for enhanced interaction",
-      "Well-organized layout and content hierarchy",
-      "Fully responsive design across all devices",
-      "Dedicated project showcase section",
+      "Comprehensive directory of eco-friendly local MSMEs",
+      "Clear categorization of sustainable practices and products",
+      "Intuitive search and filtering system for easy discovery",
+      "Detailed and engaging profile pages for each business",
+      "Seamless navigation flow tailored for both eco-conscious consumers and MSMEs",
     ],
 
     challenges: [
-      "Maintaining optimal performance despite content-heavy sections",
-      "Ensuring a clean and consistent layout on smaller screen sizes",
+      "Gathering and structuring accurate, reliable data for various eco-friendly MSMEs",
+      "Designing a highly responsive UI/UX that adapts seamlessly across all devices while handling complex directory layouts and data",
     ],
 
     results: [
-      "Improved clarity and user understanding of the portfolio content",
-      "Faster loading times",
+      "Delivered a fully responsive design that provides a consistent and engaging user experience on both mobile and desktop",
+      "Successfully created an accessible platform that bridges the gap between eco-conscious consumers and sustainable businesses",
     ],
 
     gallery: [ecosrot],
     year: 2025,
-    role: "Fullstack Developer",
+    role: "UI/UX Designer",
   },
-  // MOBFT
+  // MOBFT V
   {
     id: "web-dev-mobft",
     nama: "Web Development - MobFT",
@@ -266,35 +266,34 @@ export const listProyek = [
     thumbnail: mobft,
 
     shortDesc:
-      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+      "Developed the front-end interface for the Engineering Faculty's new student orientation web application, serving as a centralized information hub.",
 
     fullDesc:
-      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+      "Served as a Front-End Developer for the Engineering Faculty's new student orientation program. I was responsible for building the main website, which functioned as a comprehensive information hub featuring event details, activity schedules, and a daily point-tracking system. My work focused on designing and implementing user interfaces, page layouts, and interaction flows to ensure accessibility and an intuitive user experience. Ultimately, the platform successfully helped new students stay informed, guided, and actively engaged throughout the entire orientation process.",
     tools: [tailwind, javascript, laravel],
 
     features: [
-      "Informative and structured content presentation",
-      "Smooth scroll animations for enhanced interaction",
-      "Well-organized layout and content hierarchy",
-      "Fully responsive design across all devices",
-      "Dedicated project showcase section",
+      "Centralized information hub for event details and schedules",
+      "Daily point tracking system for student activities",
+      "Intuitive and accessible user interface design",
+      "Seamless interaction flows and structured page layouts",
     ],
 
     challenges: [
-      "Maintaining optimal performance despite content-heavy sections",
-      "Ensuring a clean and consistent layout on smaller screen sizes",
+      "Designing an interface that is easily navigable for a large volume of new users",
+      "Structuring complex orientation schedules and point systems into a clean layout",
     ],
 
     results: [
-      "Improved clarity and user understanding of the portfolio content",
-      "Faster loading times",
+      "Delivered a platform that kept new students well-informed and actively engaged",
+      "Streamlined the orientation process with an intuitive and accessible digital ecosystem",
     ],
 
     gallery: [mobft],
     year: 2025,
-    role: "Fullstack Developer",
+    role: "Front-End Developer",
   },
-  // PRODUCERA
+  // PRODUCERA V
   {
     id: "ui-ux-producera",
     nama: "UI/UX Design - Producera",
@@ -303,35 +302,35 @@ export const listProyek = [
     thumbnail: producera,
 
     shortDesc:
-      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+      "An inclusive mobile job search application designed to provide comprehensive employment opportunities, featuring smart job matching and transparent company reviews.",
 
     fullDesc:
-      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+      "Producera is a mobile application developed to address modern job market challenges by providing comprehensive and sustainable employment access. As the UI/UX Designer, I focused on creating an inclusive and intuitive interface that empowers job seekers. The app aims to simplify the job search process by offering personalized job matching, transparent company culture insights, and dedicated accessibility options for users with disabilities. Additionally, it integrates skill enhancement features by recommending relevant courses to help users meet current market demands.",
     tools: [figma],
 
     features: [
-      "Informative and structured content presentation",
-      "Smooth scroll animations for enhanced interaction",
-      "Well-organized layout and content hierarchy",
-      "Fully responsive design across all devices",
-      "Dedicated project showcase section",
+      "Algorithm-driven job matching tailored to user skills and preferences",
+      "Integrated online training and courses for continuous skill enhancement",
+      "Transparent company reviews and work culture insights from employees",
+      "Advanced job filtering options (full-time, part-time, internship, remote)",
+      "Dedicated job search options and accessibility features for users with disabilities",
     ],
 
     challenges: [
-      "Maintaining optimal performance despite content-heavy sections",
-      "Ensuring a clean and consistent layout on smaller screen sizes",
+      "Designing an inclusive interface that is fully accessible for users with diverse needs and disabilities",
+      "Balancing a feature-rich platform (job searching, upskilling, and reviewing) within a clean, intuitive mobile UI",
     ],
 
     results: [
-      "Improved clarity and user understanding of the portfolio content",
-      "Faster loading times",
+      "Delivered a highly accessible and user-centric mobile application design",
+      "Created a seamless user journey from job discovery to application and continuous learning",
     ],
 
     gallery: [producera],
-    year: 2025,
-    role: "Fullstack Developer",
+    year: 2024,
+    role: "UI/UX Designer",
   },
-  // FITFLOW
+  // FITFLOW V
   {
     id: "ui-ux-fitflow",
     nama: "UI/UX Design - Fitflow",
@@ -340,35 +339,35 @@ export const listProyek = [
     thumbnail: fitflow,
 
     shortDesc:
-      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+      "A versatile health and wellness mobile app designed to motivate busy individuals through personalized lifestyle tracking, home workouts, and a healthy food marketplace.",
 
     fullDesc:
-      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+      "Fitflow is a comprehensive mobile application dedicated to helping users maintain a healthy lifestyle amidst their busy schedules. As the UI/UX Designer, I focused on creating an adaptable and motivating interface that personalizes the user experience based on specific goals, such as weight loss or general wellness. The app integrates various health-focused features into a seamless journey, including hydration and sleep trackers, no-equipment home workout routines, information on local sports events, and a built-in marketplace for delivering healthy meals directly to users.",
     tools: [figma],
 
     features: [
-      "Informative and structured content presentation",
-      "Smooth scroll animations for enhanced interaction",
-      "Well-organized layout and content hierarchy",
-      "Fully responsive design across all devices",
-      "Dedicated project showcase section",
+      "Flexible UI that adapts to user-specific goals (e.g., weight loss vs. healthy lifestyle)",
+      "Daily hydration reminders and comprehensive sleep habit monitoring",
+      "Integrated marketplace for ordering and delivering healthy food",
+      "Curated no-equipment home workout routines and fitness guides",
+      "Information hub for local sports activities and running events",
     ],
 
     challenges: [
-      "Maintaining optimal performance despite content-heavy sections",
-      "Ensuring a clean and consistent layout on smaller screen sizes",
+      "Integrating multiple distinct features (tracking, e-commerce, and event discovery) into a cohesive and uncluttered mobile experience",
+      "Designing a flexible user journey that seamlessly adapts its content based on the user's initial health goals",
     ],
 
     results: [
-      "Improved clarity and user understanding of the portfolio content",
-      "Faster loading times",
+      "Created a highly personalized and motivating user interface that encourages daily health habits",
+      "Delivered a clean, unified app design that successfully balances lifestyle tracking with marketplace functionalities",
     ],
 
     gallery: [fitflow],
     year: 2025,
-    role: "Fullstack Developer",
+    role: "UI/UX Designer",
   },
-  // HIJAUIN
+  // HIJAUIN V
   {
     id: "ui-ux-hijauin",
     nama: "UI/UX Design - Hijauin",
@@ -377,35 +376,35 @@ export const listProyek = [
     thumbnail: hijauin,
 
     shortDesc:
-      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+      "An engaging, gamified mobile app design aimed at bridging environmental awareness and action through AI-driven recommendations, community building, and a reward system.",
 
     fullDesc:
-      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+      "Hijauin was designed to address environmental challenges in Indonesia by providing a centralized platform for users to discover and participate in green activities. As the UI/UX Designer, I focused on creating an intuitive interface that motivates positive behavioral change. The design integrates AI to estimate environmental impact and personalize activity recommendations. It also features comprehensive learning media, including an AI environmental chatbot, alongside robust community networking tools. To ensure long-term user retention and motivation, I implemented gamification concepts such as weekly leaderboards, a leveling system, and reward points redeemable for eco-friendly products.",
     tools: [figma],
 
     features: [
-      "Informative and structured content presentation",
-      "Smooth scroll animations for enhanced interaction",
-      "Well-organized layout and content hierarchy",
-      "Fully responsive design across all devices",
-      "Dedicated project showcase section",
+      "Centralized hub for discovering and participating in eco-friendly events",
+      "AI-powered environmental impact estimation and personalized activity recommendations",
+      "Gamification system featuring weekly leaderboards, user levels, and reward points",
+      "Interactive learning media, including videos, articles, and an AI chatbot",
+      "Community networking tools to add friends, chat, and invite others to green events",
     ],
 
     challenges: [
-      "Maintaining optimal performance despite content-heavy sections",
-      "Ensuring a clean and consistent layout on smaller screen sizes",
+      "Balancing a complex array of features (AI chat, community, gamification, and events) within a clean, uncluttered mobile interface",
+      "Designing an intuitive gamification and reward flow that genuinely motivates users without feeling overwhelming",
     ],
 
     results: [
-      "Improved clarity and user understanding of the portfolio content",
-      "Faster loading times",
+      "Delivered a cohesive, engaging app design that successfully translates environmental awareness into actionable steps",
+      "Created an interactive, community-driven user experience seamlessly enhanced by AI and gamification",
     ],
 
     gallery: [hijauin],
     year: 2025,
-    role: "Fullstack Developer",
+    role: "UI/UX Designer",
   },
-  // BERPROGRESS
+  // BERPROGRESS V
   {
     id: "ui-ux-berprogress",
     nama: "UI/UX Design - Berprogress",
@@ -414,33 +413,33 @@ export const listProyek = [
     thumbnail: berprogress,
 
     shortDesc:
-      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+      "A smart city web platform designed to foster urban innovation, civic engagement, and transparency through interactive maps and public reporting.",
 
     fullDesc:
-      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+      "Berprogress is a web-based platform conceptualized around the theme of 'Smart Cities and Urban Innovation'. As the UI/UX Designer, my objective was to create an interface that utilizes technology to improve public service efficiency and overall quality of life. The design encourages active citizen participation in urban development through an integrated digital map, a streamlined public reporting system, community discussion forums, and real-time news updates. By prioritizing data-driven planning and transparency, the platform serves not just as a digital service, but as a collaborative space to build a more participatory, efficient, and sustainable city.",
     tools: [figma],
 
     features: [
-      "Informative and structured content presentation",
-      "Smooth scroll animations for enhanced interaction",
-      "Well-organized layout and content hierarchy",
-      "Fully responsive design across all devices",
-      "Dedicated project showcase section",
+      "Interactive digital map for spatial data and urban visualization",
+      "Accessible public reporting system for civic issues",
+      "Community discussion forums to drive active citizen collaboration",
+      "Real-time news integration to keep the public informed",
+      "Transparent, data-driven layout to bridge the gap between residents and city planning",
     ],
 
     challenges: [
-      "Maintaining optimal performance despite content-heavy sections",
-      "Ensuring a clean and consistent layout on smaller screen sizes",
+      "Organizing complex urban data, maps, and community features into a cohesive, user-friendly layout",
+      "Designing a highly accessible interface that can be easily navigated by a diverse demographic of city residents",
     ],
 
     results: [
-      "Improved clarity and user understanding of the portfolio content",
-      "Faster loading times",
+      "Delivered a visually engaging and responsive platform that promotes active civic participation",
+      "Created a streamlined user flow for public reporting and collaborative urban discussions",
     ],
 
     gallery: [berprogress],
     year: 2025,
-    role: "Fullstack Developer",
+    role: "UI/UX Designer",
   },
   // FBEUBAYA
   {
@@ -479,7 +478,7 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
-  // ILPC
+  // ILPC V
   {
     id: "graphic-design-ilpc",
     nama: "Graphic Design - ILPC",
@@ -488,35 +487,35 @@ export const listProyek = [
     thumbnail: ilpc,
 
     shortDesc:
-      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+      "Spearheaded the comprehensive visual identity, social media design, and full event documentation for ILPC 2025, ensuring a cohesive brand experience.",
 
     fullDesc:
-      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+      "For ILPC 2025, I was entrusted with crafting and maintaining a consistent visual identity from the ground up, defining core design elements, typography, and color palettes. This cohesive branding was applied across all event materials and videos. My role involved extensive coordination with other divisions to design a wide array of assets, ranging from social media campaigns (feeds, stories, promotional materials) to specific event needs like website assets and rally game requirements. Additionally, I managed the end-to-end documentation of the entire event.",
     tools: [figma, illustrator],
 
     features: [
-      "Informative and structured content presentation",
-      "Smooth scroll animations for enhanced interaction",
-      "Well-organized layout and content hierarchy",
-      "Fully responsive design across all devices",
-      "Dedicated project showcase section",
+      "Creation of a consistent visual identity (typography, colors, and design elements)",
+      "End-to-end social media content design (feeds, stories, promos)",
+      "Design of event-specific assets, including website graphics and rally game materials",
+      "Full-scale event documentation and photography/videography",
+      "Seamless cross-divisional coordination for all design requirements",
     ],
 
     challenges: [
-      "Maintaining optimal performance despite content-heavy sections",
-      "Ensuring a clean and consistent layout on smaller screen sizes",
+      "Maintaining strict visual consistency across a wide variety of digital and physical assets",
+      "Managing and delivering multiple design requests from various divisions under tight event deadlines",
     ],
 
     results: [
-      "Improved clarity and user understanding of the portfolio content",
-      "Faster loading times",
+      "Successfully established a strong, recognizable, and cohesive brand identity for ILPC 2025",
+      "Delivered all promotional and event assets on time, ensuring a smooth and visually appealing event experience",
     ],
 
-    gallery: [pusdakota],
+    gallery: [ilpc],
     year: 2025,
-    role: "Fullstack Developer",
+    role: "Vice Coordinator of Design, Documentation, and Decoration",
   },
-  // MANIAC
+  // MANIAC V
   {
     id: "graphic-design-maniac",
     nama: "Graphic Design - Maniac",
@@ -525,35 +524,34 @@ export const listProyek = [
     thumbnail: maniac,
 
     shortDesc:
-      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+      "Contributed to the visual presence of the Maniac event by designing engaging social media content and capturing comprehensive on-site documentation.",
 
     fullDesc:
-      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [reactjs, tailwind, javascript],
+      "As a member of the Design, Documentation, and Decoration (DDD) division for the Maniac event, my primary focus was on elevating the event's digital presence through social media. I was responsible for designing cohesive, engaging Instagram feeds and promotional assets that aligned perfectly with the event's visual identity. In addition to my digital design responsibilities, I played an active role during the event days, providing hands-on documentation through photography and videography to capture key moments and ensure a complete visual record of the event.",
+    tools: [figma, illustrator],
 
     features: [
-      "Informative and structured content presentation",
-      "Smooth scroll animations for enhanced interaction",
-      "Well-organized layout and content hierarchy",
-      "Fully responsive design across all devices",
-      "Dedicated project showcase section",
+      "Design and production of engaging Instagram feeds and promotional materials",
+      "Consistent application of the event's visual identity across digital platforms",
+      "On-site photography and videography during the main event days",
+      "Active collaboration within the DDD division to fulfill various visual needs",
     ],
 
     challenges: [
-      "Maintaining optimal performance despite content-heavy sections",
-      "Ensuring a clean and consistent layout on smaller screen sizes",
+      "Delivering high-quality social media content consistently under tight promotional deadlines",
+      "Capturing clear, dynamic, and comprehensive documentation during fast-paced event activities",
     ],
 
     results: [
-      "Improved clarity and user understanding of the portfolio content",
-      "Faster loading times",
+      "Enhanced the event's online visibility and engagement through an attractive social media presence",
+      "Successfully delivered a complete and high-quality visual archive of the event's key moments",
     ],
 
     gallery: [maniac],
     year: 2025,
-    role: "Fullstack Developer",
+    role: "Member of Design, Documentation, and Decoration",
   },
-  // INDUSTRIAL GAMES
+  // INDUSTRIAL GAMES V
   {
     id: "graphic-design-ig",
     nama: "Graphic Design - Industrial Games",
@@ -562,33 +560,32 @@ export const listProyek = [
     thumbnail: ig,
 
     shortDesc:
-      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+      "Contributed to the visual presence of Industrial Games by designing engaging social media content and capturing comprehensive on-site documentation.",
 
     fullDesc:
-      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+      "As a member of the Design, Documentation, and Decoration (DDD) division for Industrial Games, my primary focus was on elevating the event's digital presence through social media. I was responsible for designing cohesive, engaging Instagram feeds and promotional assets that aligned perfectly with the event's visual identity. In addition to my digital design responsibilities, I played an active role during the event days, providing hands-on documentation through photography and videography to capture key moments and ensure a complete visual record of the event.",
     tools: [figma, illustrator],
 
     features: [
-      "Informative and structured content presentation",
-      "Smooth scroll animations for enhanced interaction",
-      "Well-organized layout and content hierarchy",
-      "Fully responsive design across all devices",
-      "Dedicated project showcase section",
+      "Design and production of engaging Instagram feeds and promotional materials",
+      "Consistent application of the event's visual identity across digital platforms",
+      "On-site photography and videography during the main event days",
+      "Active collaboration within the DDD division to fulfill various visual needs",
     ],
 
     challenges: [
-      "Maintaining optimal performance despite content-heavy sections",
-      "Ensuring a clean and consistent layout on smaller screen sizes",
+      "Delivering high-quality social media content consistently under tight promotional deadlines",
+      "Capturing clear, dynamic, and comprehensive documentation during fast-paced event activities",
     ],
 
     results: [
-      "Improved clarity and user understanding of the portfolio content",
-      "Faster loading times",
+      "Enhanced the event's online visibility and engagement through an attractive social media presence",
+      "Successfully delivered a complete and high-quality visual archive of the event's key moments",
     ],
 
     gallery: [ig],
     year: 2025,
-    role: "Fullstack Developer",
+    role: "Member of Design, Documentation, and Decoration",
   },
 ];
 
