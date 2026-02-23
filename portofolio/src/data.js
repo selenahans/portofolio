@@ -654,84 +654,67 @@ export const listEducation = [
 ];
 
 export const listExperience = [
+  //OS
   {
     id: 1,
     title: "Teaching Assistant - Operating Systems",
     company: "Universitas Surabaya",
     location: "Surabaya, Indonesia",
     period: "Aug 2025 - Jan 2026",
-    type: "Internship",
+    type: "Teaching Assistant",
     logo: "/assets/experience/ubaya.webp",
 
-    // Detail dalam bentuk objek list
     details: {
       responsibilities: [
-        "Facilitated learning for 60+ students by explaining the fundamentals and architecture of Windows and Linux operating systems.",
-        "Assisted in setting up operating system via command prompt, including configuration, troubleshooting, and optimization for both Linux and Windows environments.",
+        "Facilitated technical learning for 60+ students on OS architecture and CLI-based administration, bridging theoretical concepts with practical hands-on skills.",
+        "Mastered shell scripting and environment configuration while mentoring students through complex troubleshooting and OS optimization tasks.",
+        "Streamlined academic workflows by implementing custom automated scripts for assignment collection, improving overall time management and operational efficiency.",
       ],
-      whatILearned: [
-        "Gained hands-on expertise in CLI-based system administration, mastering shell scripting, and environment configuration.",
-        "Improving public speaking and the ability to explain technical concepts simply.",
-        "Time management between academic responsibilities and teaching duties.",
-      ],
-      impact: [
-        "Guided students through the end-to-end OS setup process, fostering a hands-on learning environment that translated theory into practical technical skills.",
-        "Streamlined the assignment collection process using a custom automated script.",
-      ],
+      whatILearned: [""],
+      impact: [""],
     },
   },
+  //PUSDAKOTA
   {
     id: 2,
     title: "Student Employee - Pusdakota Ubaya",
     company: "Pusdakota Universitas Surabaya",
     location: "Surabaya, Indonesia",
     period: "Juli 2024 - Desember 2025",
-    type: "Internship",
+    type: "Student Employee",
     logo: "/assets/experience/pusdakota.webp",
 
     details: {
       responsibilities: [
-        "Visual Content Creation: Designing a wide range of visual materials for internal and external needs, including posters, infographics, social media content, and presentation assets.",
-        "Brand Identity Management: Developing and maintaining a consistent visual identity across all organizational outputs to ensure brand integrity.",
-        "Digital Presence & Collaboration: Partnering with cross-functional teams to manage and publish visual content on Pusdakota’s official website and social media platforms, driving audience engagement and reach.",
+        "Produced high-quality visual assets and infographics for social media and official websites, enhancing audience engagement and the delivery of organizational messages.",
+        "Developed and maintained a consistent brand identity across all platforms, resulting in a more professional and unified public image for Pusdakota.",
+        "Collaborated with cross-functional teams to translate complex data into compelling visual materials while mastering brand ecosystem management and creative alignment.",
       ],
-      whatILearned: [
-        "Developed the ability to translate complex data into compelling infographics and layouts that resonate with diverse audiences.",
-        "Gained deep insights into maintaining brand ecosystem consistency and its role in building organizational trust.",
-        "Enhanced communication skills while working with diverse teams to align creative output.",
-      ],
-      impact: [
-        "Produced high-quality assets that improved the delivery of organizational messages across all platforms.",
-        "Successfully unified Pusdakota’s visual presence, resulting in a more professional and recognizable public image.",
-      ],
+      whatILearned: [""],
+      impact: [""],
     },
   },
+  //PBA
   {
     id: 3,
     title: "Teaching Assistant - PBA",
     company: "Universitas Surabaya",
     location: "Surabaya, Indonesia",
     period: "Aug 2025 - Jan 2026",
-    type: "Internship",
+    type: "Teaching Assistant",
     logo: "/assets/experience/ubaya.webp",
 
-    // Detail dalam bentuk objek list
     details: {
       responsibilities: [
-        "Facilitated learning for 60+ students by explaining the fundamentals and architecture of Windows and Linux operating systems.",
-        "Assisted in setting up operating system via command prompt, including configuration, troubleshooting, and optimization for both Linux and Windows environments.",
+        "Facilitated learning for 30+ students on Unity fundamentals and physics-based animation, including the implementation of projectile motion and kinematics.",
+        "Bridged the gap between theoretical physics and game development by mentoring students in building interactive simulations using C# and Unity's physics engine.",
+        "Enhanced students' technical problem-solving skills through hands-on guidance in debugging scripts and optimizing real-time physical simulations.",
       ],
-      whatILearned: [
-        "Gained hands-on expertise in CLI-based system administration, mastering shell scripting, and environment configuration.",
-        "Improving public speaking and the ability to explain technical concepts simply.",
-        "Time management between academic responsibilities and teaching duties.",
-      ],
-      impact: [
-        "Guided students through the end-to-end OS setup process, fostering a hands-on learning environment that translated theory into practical technical skills.",
-        "Streamlined the assignment collection process using a custom automated script.",
-      ],
+      whatILearned: [""],
+      impact: [""],
     },
   },
+  // ASAH
   {
     id: 4,
     title: "Machine Learning Cohort",
@@ -743,18 +726,12 @@ export const listExperience = [
 
     details: {
       responsibilities: [
-        "Participated in an intensive, industry-aligned training under the Kampus Berdampak Mandiri initiative.",
-        "Developed end-to-end Machine Learning solutions through rigorous project-based learning.",
+        "Developed end-to-end Machine Learning solutions through intensive, industry-aligned training under the Kampus Berdampak Mandiri initiative.",
+        "Built and deployed practical AI applications by transitioning theoretical models into real-world projects that meet industry benchmarks.",
+        "Mastered high-demand digital skills and software architecture within a corporate-aligned environment.",
       ],
-      whatILearned: [
-        "Mastery of high-demand ML topics and industry-standard digital skills.",
-        "Transitioning theoretical models into practical, real-world AI applications.",
-        "Strengthening critical soft skills for the competitive tech landscape.",
-      ],
-      impact: [
-        "Successfully delivered real-world ML projects meeting industry benchmarks.",
-        "Gained a comprehensive perspective on AI deployment within a corporate-aligned environment.",
-      ],
+      whatILearned: [""],
+      impact: [""],
     },
   },
 ];
