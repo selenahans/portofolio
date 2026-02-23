@@ -1,14 +1,10 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-// import DataImage from "../data";
-// import { listProyek } from "../data/data"
 import { listProyek, PROJECT_CATEGORY_LIST } from "../data";
-
 const Projects = () => {
-  // State untuk menyimpan kategori yang dipilih (default: "All")
+  
   const [activeCategory, setActiveCategory] = useState("all");
 
-  // Logika Filter: Jika "all", tampilkan semua. Jika tidak, filter berdasarkan properti kategori
   const filteredProjects =
     activeCategory === "all"
       ? listProyek
@@ -77,7 +73,6 @@ const Projects = () => {
               data-aos-delay={"dad" in proyek ? proyek.dad : 0}
             >
               <div
-                // key={proyek.id}
                 className="bg-[#ECE9E5] rounded-2xl overflow-hidden flex flex-col shadow-sm"
                 data-aos="fade-up"
                 data-aos-duration="1000"
@@ -100,7 +95,6 @@ const Projects = () => {
                     {proyek.shortDesc}
                   </p>
 
-                  {/* List Tools */}
                   <div className="flex flex-wrap gap-3 mt-auto">
                     {proyek.tools.map((tool, index) => (
                       <div
@@ -120,7 +114,7 @@ const Projects = () => {
             </Link>
           ))}
         </div>
-        {/* Pesan jika proyek tidak ditemukan pada kategori tertentu */}
+
         {filteredProjects.length === 0 && (
           <p className="text-center text-gray-400 mt-10">Tidak ada proyek dalam kategori ini.</p>
         )}

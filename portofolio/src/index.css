@@ -1,8 +1,6 @@
 @import "tailwindcss";
-
 @layer base {
   body {
-    /* @apply bg-gray-100; */
     font-family: "Poppins", sans-serif;
     background-color: #faf8f6;
     text-color: #232323;

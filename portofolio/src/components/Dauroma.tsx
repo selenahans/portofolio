@@ -6,12 +6,8 @@ import ashbel from "../assets/dauroma/ashbel.webp";
 import ertz from "../assets/dauroma/ertz.webp";
 import discoverySet from "../assets/dauroma/discovery-set.webp";
 const Dauroma = () => {
-  // Daftar 6 gambar Dauroma (Sesuaikan path-nya dengan file Anda)
   const images = [applevera, orris, talya, ashbel, ertz, discoverySet];
-
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  // Logic Looping Gambar tiap 3 detik
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) =>
@@ -24,7 +20,6 @@ const Dauroma = () => {
   return (
     <div className="mt-20 py-10 max-w-6xl mx-auto px-4 lg:px-0" id="dauroma">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-10 items-center">
-        {/* SISI KIRI: SLIDER GAMBAR */}
         <div
           className="relative w-full h-[450px] overflow-hidden rounded-3xl shadow-lg"
           data-aos="fade-right"
@@ -40,7 +35,6 @@ const Dauroma = () => {
               loading="lazy"
             />
           ))}
-          {/* Indicator Bullets (Opsional) */}
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
             {images.map((_, i) => (
               <div
@@ -50,8 +44,6 @@ const Dauroma = () => {
             ))}
           </div>
         </div>
-
-        {/* SISI KANAN: PENJELASAN & LINK */}
         <div className="flex flex-col gap-6" data-aos="fade-left">
           <div>
             <h1
@@ -62,7 +54,6 @@ const Dauroma = () => {
             >
               Entrepreneurial Journey
             </h1>
-            {/* <h2 className="text-4xl font-bold text-[#372d29] mt-2">Dauroma</h2> */}
           </div>
 
           <p className="text-lg leading-relaxed text-[#483b32] opacity-90 text-justify">
@@ -76,7 +67,6 @@ const Dauroma = () => {
           </p>
 
           <div className="flex flex-wrap gap-4 mt-4">
-            {/* Link Shopee */}
             <a
               href="https://shopee.co.id/dauromaid"
               target="_blank"
@@ -86,8 +76,6 @@ const Dauroma = () => {
               <i className="ri-shopping-bag-line ri-lg"></i>
               <span>Shopee</span>
             </a>
-
-            {/* Link Instagram */}
             <a
               href="https://www.instagram.com/dauroma.id/"
               target="_blank"
@@ -103,5 +91,4 @@ const Dauroma = () => {
     </div>
   );
 };
-
 export default Dauroma;
