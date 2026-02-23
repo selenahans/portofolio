@@ -33,7 +33,7 @@ const About = () => {
             environments and am committed to continuous learning to solve
             real-world challenges in the tech industry.
           </p>
-          <div className="flex items-center sm:gap-4 gap-2">
+          {/* <div className="flex items-center sm:gap-4 gap-2">
             <a
               href="#"
               className="bg-[#E5DFD3] p-4 rounded-2xl hover:bg-[#A39383] hover:scale-110 transition-transform duration-300 text-[#232323]"
@@ -46,7 +46,7 @@ const About = () => {
             >
               Lihat Project <i className="ri-arrow-down-line ri-lg"></i>
             </a>
-          </div>
+          </div> */}
         </div>
         <img
           src={DataImage.HeroImage}
