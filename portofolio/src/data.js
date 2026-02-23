@@ -22,6 +22,7 @@ import ilpc from "./assets/proyek/graphic-design-ilpc.webp";
 import maniac from "./assets/proyek/graphic-design-maniac.webp";
 import ig from "./assets/proyek/graphic-design-ig.webp";
 import pimus from "./assets/proyek/webdev-pimus.webp";
+import porto from "./assets/proyek/webdev-porto.webp";
 
 export const PROJECT_CATEGORY = {
   WEB_DEV: "web-development",
@@ -149,41 +150,42 @@ export const listTools = [
 ];
 export const listProyek = [
   // WEBSITE PORTOFOLIO
-  {
+{
     id: "website-portofolio",
-    nama: "Website Portofolio",
+    nama: "Personal Branding & Digital Portfolio", 
     slug: "website-portofolio",
     kategori: [PROJECT_CATEGORY.WEB_DEV, PROJECT_CATEGORY.UI_UX],
-    thumbnail: pusdakota,
+    thumbnail: porto,
 
     shortDesc:
-      "A dynamic and highly responsive personal portfolio website built to showcase my professional journey, creative projects, and dual expertise in design and development.",
+      "A high-performance personal ecosystem designed to bridge the gap between creative UI/UX design and robust Software Engineering.",
 
     fullDesc:
-      "This personal portfolio website was meticulously crafted from scratch to serve as a digital showcase of my professional identity. Built with modern web technologies and heavily utilizing Tailwind CSS, the platform emphasizes a clean, minimalist, yet engaging UI/UX design. The development process involved translating custom design mockups into a fully responsive front-end. It features smooth scrolling, interactive animations, and a well-structured content hierarchy to ensure an optimal user experience across all devices. This project stands as a testament to my ability to bridge the gap between aesthetic design and functional code.",
+      "This portfolio is more than just a gallery of work; it is a meticulously engineered digital experience that embodies my professional identity as a 'tech-creative'. Developed from scratch using React.js and Tailwind CSS, the platform focuses on a 'minimalist-premium' aesthetic. I prioritized a clean content hierarchy, ensuring that every interaction—from smooth transitions to responsive layouts—feels intuitive and purposeful. This project demonstrates my ability to translate complex branding concepts into a functional, pixel-perfect, and high-performing web environment.",
+    
     tools: [reactjs, tailwind, javascript],
 
     features: [
-      "Custom-built responsive UI tailored specifically for personal branding",
-      "Smooth scroll animations and interactive elements for enhanced engagement",
-      "Structured project showcase with detailed and categorized case studies",
-      "Clean, maintainable codebase utilizing Tailwind CSS utility classes",
-      "Optimized performance ensuring fast load times across desktop and mobile",
+      "Signature 'Minimalist-Premium' UI tailored for professional personal branding",
+      "Dynamic Routing & Slug-based navigation for seamless project exploration",
+      "Adaptive Typography and Fluid Grid system for pixel-perfect responsiveness",
+      "High-performance asset optimization and lazy-loading for near-instant load times",
+      "Integrated AOS (Animate On Scroll) for a sophisticated, cinematic user journey",
     ],
 
     challenges: [
-      "Translating custom UI/UX designs into pixel-perfect, responsive code across various screen sizes",
-      "Balancing rich animations and interactive UI elements with optimal web performance",
+      "Crafting a custom design system that maintains visual consistency across highly diverse screen resolutions",
+      "Implementing advanced scroll restoration and navigation logic to ensure a flawless user experience in a Single Page Application (SPA)",
     ],
 
     results: [
-      "Successfully launched a professional digital footprint that effectively highlights my technical and design skills",
-      "Achieved seamless cross-device compatibility and a highly intuitive user browsing experience",
+      "Delivered a centralized digital hub that effectively communicates technical proficiency and design sensibility to potential stakeholders",
+      "Successfully achieved a lightweight and accessible platform with a 100% manual design-to-code execution",
     ],
 
-    gallery: [pusdakota],
+    gallery: [porto],
     year: 2026,
-    role: "Front-End Developer & UI/UX Designer",
+    role: "Web Developer & UI/UX Designer", 
   },
   // PIMUS
   {
