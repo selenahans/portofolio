@@ -107,7 +107,7 @@ const Home = () => {
           data-aos-delay="300"
           data-aos-once="true"
         >
-          list project yang sudah aku buat
+          Showcasing a collection of web development, UI/UX, and design projects.
         </p>
 
         <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">

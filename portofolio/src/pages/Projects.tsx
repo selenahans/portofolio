@@ -31,7 +31,8 @@ const Projects = () => {
           data-aos-delay="200"
         >
           <p className="text-[#372922] text-lg mb-4 text-center">
-            "Selected works and technical contributions. A mix of personal experiments and collaborative open-source projects."
+            Selected works and technical contributions. <br />
+            A mix of personal experiments and collaborative open-source projects.
           </p>
           <div className="w-full border-b border-dashed border-slate-300"></div>
         </div>

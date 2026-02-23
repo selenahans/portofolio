@@ -2,6 +2,8 @@ import DataImage from "../data";
 import { listEducation } from "../data";
 import { listExperience } from "../data";
 import ExperienceSection from "../components/Experience";
+import Dauroma from "../components/Dauroma";
+
 const About = () => {
   return (
     <>
@@ -201,6 +203,8 @@ const About = () => {
             ))}
         </div>
       </div>
+      <Dauroma />
+
       {/* TOOLS -> SOON */}
       {/* <div className="tools mt-15 py-10 max-w-7xl mx-auto" id="tools">
         <h1
