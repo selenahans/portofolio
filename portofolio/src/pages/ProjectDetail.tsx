@@ -129,25 +129,25 @@ const ProjectDetail = () => {
         {/* Project Meta Info (Year & Role) */}
         <div className="flex flex-wrap justify-between gap-6 mb-8 text-sm sm:text-base">
           <div>
-            <p className="text-gray-400 uppercase tracking-wider font-medium">Year</p>
+            <p className="text-[#A39383] hover:text-[#8E7F70] transition-colors z-10 uppercase tracking-wider font-medium">Year</p>
             <p className="text-gray-800 font-semibold">{proyek.year}</p>
           </div>
           <div className="sm:text-right">
-            <p className="text-gray-400 uppercase tracking-wider font-medium">Role</p>
+            <p className="text-[#A39383] hover:text-[#8E7F70] transition-colors z-10 uppercase tracking-wider font-medium">Role</p>
             <p className="text-gray-800 font-semibold">{proyek.role}</p>
           </div>
         </div>
 
         {/* Tech Stack */}
         <div className="flex flex-wrap items-center gap-4 mb-10">
-          <span className="text-gray-700 font-semibold">Tech Stack :</span>
+          <span className="text-[#A39383] hover:text-[#8E7F70] transition-colors z-10 font-semibold">Tech Stack :</span>
           <div className="flex flex-wrap gap-3">
             {proyek.tools.map((tool, index) => (
               <img
                 key={index}
                 src={tool}
                 alt="tech-icon"
-                className="w-7 h-7 object-contain grayscale hover:grayscale-0 transition-all"
+                className="w-7 h-7 object-contain transition-all"
                 title="Technology Tool"
               />
             ))}
@@ -165,7 +165,7 @@ const ProjectDetail = () => {
 
         {/* Description Section */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">About Project</h2>
+          <h2 className="text-2xl font-bold text-[#A39383] hover:text-[#8E7F70] transition-colors z-10 mb-4">About Project</h2>
           <p className="text-gray-600 leading-relaxed text-lg">
             {proyek.fullDesc}
           </p>
@@ -174,7 +174,7 @@ const ProjectDetail = () => {
         {/* Features & Results Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
           <div className="bg-[#F9F7F5] p-8 rounded-2xl">
-            <h2 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+            <h2 className="text-xl font-bold text-[#A39383] hover:text-[#8E7F70] transition-colors z-10 mb-4 flex items-center gap-2">
               <span className="w-2 h-6 bg-[#A39383] rounded-full"></span>
               Key Features
             </h2>
@@ -188,7 +188,7 @@ const ProjectDetail = () => {
           </div>
 
           <div className="bg-[#F9F7F5] p-8 rounded-2xl">
-            <h2 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+            <h2 className="text-xl font-bold text-[#A39383] hover:text-[#8E7F70] transition-colors z-10 mb-4 flex items-center gap-2">
               <span className="w-2 h-6 bg-[#A39383] rounded-full"></span>
               Results & Impact
             </h2>
@@ -205,7 +205,7 @@ const ProjectDetail = () => {
         {/* Challenges Section */}
         {proyek.challenges && proyek.challenges.length > 0 && (
           <div className="border border-gray-100 p-8 rounded-2xl mb-16">
-            <h2 className="text-xl font-bold text-gray-800 mb-4">Challenges</h2>
+            <h2 className="text-xl font-bold text-[#A39383] hover:text-[#8E7F70] transition-colors z-10 mb-4">Challenges</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {proyek.challenges.map((challenge, index) => (
                 <div key={index} className="flex gap-4 items-start">

@@ -138,7 +138,7 @@ export const listTools = [
     ket: "Design App",
     dad: "1100",
   },
-    {
+  {
     id: 12,
     gambar: laravel,
     nama: "Laravel",
@@ -147,6 +147,7 @@ export const listTools = [
   },
 ];
 export const listProyek = [
+  // WEBSITE PORTOFOLIO
   {
     id: "website-portofolio",
     nama: "Website Portofolio",
@@ -183,6 +184,7 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
+  // PUSDAKOTA
   {
     id: "student-employee-pusdakota",
     nama: "Student Employee - Pusdakota",
@@ -191,34 +193,34 @@ export const listProyek = [
     thumbnail: pusdakota,
 
     shortDesc:
-      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+      "Managed visual content creation, brand identity, and digital presence to drive audience engagement across Pusdakota's official platforms.",
 
     fullDesc:
-      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+      "During my role as a Student Employee at Pusdakota, I was responsible for producing a diverse range of visual materials for both internal and external needs, including posters, infographics, and social media assets. A major focus of my work was developing and enforcing a consistent visual identity to maintain brand integrity across all organizational outputs. Furthermore, I collaborated closely with cross-functional teams to strategize, manage, and publish compelling visual content on Pusdakota’s website and social media platforms, ultimately enhancing the organization's digital reach and engagement.",
     tools: [figma, illustrator],
 
     features: [
-      "Informative and structured content presentation",
-      "Smooth scroll animations for enhanced interaction",
-      "Well-organized layout and content hierarchy",
-      "Fully responsive design across all devices",
-      "Dedicated project showcase section",
+      "End-to-end design of posters, infographics, and presentation assets",
+      "Development and maintenance of a consistent organizational brand identity",
+      "Cross-functional collaboration for seamless content publication",
+      "Management of visual assets for the official website and social media",
     ],
 
     challenges: [
-      "Maintaining optimal performance despite content-heavy sections",
-      "Ensuring a clean and consistent layout on smaller screen sizes",
+      "Ensuring strict brand consistency across diverse media formats and platforms",
+      "Coordinating with multiple teams to align visual content with organizational goals",
     ],
 
     results: [
-      "Improved clarity and user understanding of the portfolio content",
-      "Faster loading times",
+      "Successfully drove audience engagement and reach across digital platforms",
+      "Established a cohesive, professional visual identity for all Pusdakota outputs",
     ],
 
     gallery: [pusdakota],
-    year: 2025,
-    role: "Fullstack Developer",
+    year: "2024 - 2025",
+    role: "Student Employee",
   },
+  // ECOSROT
   {
     id: "ui-ux-ecosrot",
     nama: "UI/UX Design - Ecosrot",
@@ -255,6 +257,7 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
+  // MOBFT
   {
     id: "web-dev-mobft",
     nama: "Web Development - MobFT",
@@ -291,7 +294,7 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
-
+  // PRODUCERA
   {
     id: "ui-ux-producera",
     nama: "UI/UX Design - Producera",
@@ -328,6 +331,7 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
+  // FITFLOW
   {
     id: "ui-ux-fitflow",
     nama: "UI/UX Design - Fitflow",
@@ -364,6 +368,7 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
+  // HIJAUIN
   {
     id: "ui-ux-hijauin",
     nama: "UI/UX Design - Hijauin",
@@ -400,6 +405,7 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
+  // BERPROGRESS
   {
     id: "ui-ux-berprogress",
     nama: "UI/UX Design - Berprogress",
@@ -436,6 +442,7 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
+  // FBEUBAYA
   {
     id: "graphic-design-fbeubaya",
     nama: "Graphic Design - FBE Ubaya",
@@ -472,6 +479,7 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
+  // ILPC
   {
     id: "graphic-design-ilpc",
     nama: "Graphic Design - ILPC",
@@ -508,6 +516,7 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
+  // MANIAC
   {
     id: "graphic-design-maniac",
     nama: "Graphic Design - Maniac",
@@ -544,6 +553,7 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
+  // INDUSTRIAL GAMES
   {
     id: "graphic-design-ig",
     nama: "Graphic Design - Industrial Games",
@@ -556,7 +566,7 @@ export const listProyek = [
 
     fullDesc:
       "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [figma,illustrator],
+    tools: [figma, illustrator],
 
     features: [
       "Informative and structured content presentation",
