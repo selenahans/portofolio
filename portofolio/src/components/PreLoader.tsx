@@ -53,42 +53,46 @@ const PreLoader = () => {
     <AnimatePresence>
       {loading && (
         <motion.div
+          key="loader"
+          initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-50 flex items-center justify-center bg-white"
+          transition={{ duration: 0.5 }}
+          /* Hex #F9F7F4 adalah perkiraan warna cream dari gambar yang kamu kirim */
+          className="fixed inset-0 z-[9999] flex items-center justify-center bg-[#F9F7F4]"
         >
-          <div className="flex overflow-hidden text-6xl font-bold tracking-tighter text-black">
+          <div className="flex overflow-hidden text-7xl font-bold tracking-tighter text-[#3D2B1F]">
             {/* Huruf S - Dari Bawah */}
             <motion.span
-              initial={{ y: 100 }}
+              initial={{ y: "100%" }}
               animate={{ y: 0 }}
-              transition={{ duration: 0.8, ease: "circOut" }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             >
               S
             </motion.span>
 
             {/* Huruf l - Dari Atas */}
             <motion.span
-              initial={{ y: -100 }}
+              initial={{ y: "-100%" }}
               animate={{ y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2, ease: "circOut" }}
+              transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
             >
               l
             </motion.span>
 
             {/* Huruf n - Dari Bawah */}
             <motion.span
-              initial={{ y: 100 }}
+              initial={{ y: "100%" }}
               animate={{ y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4, ease: "circOut" }}
+              transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             >
               n
             </motion.span>
 
-            {/* Titik - Muncul Terakhir (Scale) */}
+            {/* Titik - Muncul Terakhir */}
             <motion.span
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ duration: 0.3, delay: 0.8 }}
+              initial={{ opacity: 0, scale: 0 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.4, delay: 0.6 }}
             >
               .
             </motion.span>

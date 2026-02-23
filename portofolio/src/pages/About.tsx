@@ -171,42 +171,13 @@ const About = () => {
         >
           Experience
         </h1>
-        {/* <div className="w-4/5 mx-auto flex flex-col gap-8">
-          {listExperience.map((item) => (
-            <div
-              key={item.id}
-              className="flex flex-col md:flex-row items-center md:items-start gap-6 p-6 bg-[#E5DFD3] rounded-lg"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              <img
-                src={item.logo}
-                alt={item.title}
-                className="w-20 h-20 object-contain rounded-md"
-                loading="lazy"
-              />
-              <div>
-                <h1 className="text-xl font-semibold text-slate-900">
-                  {item.title}
-                </h1>
-                <div className="flex flex-wrap items-center gap-2 text-sm md:text-base text-slate-600">
-                  <span>{item.company}</span>
-                  <span className="text-slate-300">•</span>
-                  <span>{item.location}</span>
-                </div>
-                <div className="flex flex-wrap items-center gap-2 text-sm md:text-base text-slate-500 mt-1">
-                  <span>{item.period}</span>
-                  <span className="text-slate-300">•</span>
-                  <span>{item.type}</span>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div> */}
+
         <div className="w-4/5 mx-auto flex flex-col gap-8">
-          {listExperience.map((item) => (
-            <ExperienceItem key={item.id} item={item} />
-          ))}
+          {[...listExperience]
+            .sort((a, b) => b.id - a.id)
+            .map((item) => (
+              <ExperienceItem key={item.id} item={item} />
+            ))}
         </div>
       </div>
       <div></div>

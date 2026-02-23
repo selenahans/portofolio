@@ -661,7 +661,7 @@ export const listExperience = [
     location: "Surabaya, Indonesia",
     period: "Aug 2025 - Jan 2026",
     type: "Internship",
-    logo: "/assets/experience/ubaya-logo.webp",
+    logo: "/assets/experience/ubaya.webp",
 
     // Detail dalam bentuk objek list
     details: {
@@ -713,7 +713,7 @@ export const listExperience = [
     location: "Surabaya, Indonesia",
     period: "Aug 2025 - Jan 2026",
     type: "Internship",
-    logo: "/assets/experience/ubaya-logo.webp",
+    logo: "/assets/experience/ubaya.webp",
 
     // Detail dalam bentuk objek list
     details: {
