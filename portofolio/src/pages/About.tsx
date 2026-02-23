@@ -96,7 +96,6 @@ const About = () => {
           Education
         </h1>
         <div className="w-4/5 mx-auto flex flex-col gap-8">
-          {/* Urutan berdasarkan ID: Besar ke Kecil (Terbaru ke Terlama) */}
           {[...listEducation]
             .sort((a, b) => b.id - a.id)
             .map((item, index) => (
@@ -109,7 +108,6 @@ const About = () => {
                 data-aos-once="true"
               >
                 {item.gambar && (
-                  /* Animasi gambar hanya scale saja */
                   <div className="relative overflow-hidden rounded-xl bg-white p-2 shadow-sm transition-transform duration-500 group-hover:scale-110">
                     <img
                       src={item.gambar}
@@ -121,7 +119,7 @@ const About = () => {
                 )}
 
                 <div className="text-center md:text-left grow">
-                  <h1 className="text-xl font-bold text-slate-900 group-hover:text-blue-900 transition-colors duration-300">
+                  <h1 className="text-xl font-bold text-[#372d29] group-hover:text-[#524743] transition-colors duration-300">
                     {item.institution}
                   </h1>
 

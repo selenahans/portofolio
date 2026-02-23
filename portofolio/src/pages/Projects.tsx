@@ -63,14 +63,14 @@ const Projects = () => {
               className="group bg-[#ECE9E5] rounded-2xl overflow-hidden flex flex-col shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl cursor-pointer"
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-delay={proyek.dad}
+              data-aos-delay={"dad" in proyek ? proyek.dad : 0}
             >
               <div
                 // key={proyek.id}
                 className="bg-[#ECE9E5] rounded-2xl overflow-hidden flex flex-col shadow-sm"
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay={proyek.dad}
+                data-aos-delay={"dad" in proyek ? proyek.dad : 0}
               >
                 <div className="relative overflow-hidden h-56 flex justify-center items-center p-6">
                   <img
@@ -80,7 +80,7 @@ const Projects = () => {
                     className="h-full object-contain drop-shadow-xl transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
-                <div className="p-6 flex flex-col flex-grow">
+                <div className="p-6 flex flex-col grow">
                   <h1 className="text-2xl font-bold mb-3 text-gray-800">
                     {proyek.nama}
                   </h1>
