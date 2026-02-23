@@ -150,42 +150,42 @@ export const listTools = [
 ];
 export const listProyek = [
   // WEBSITE PORTOFOLIO
-{
+  {
     id: "website-portofolio",
-    nama: "Personal Branding & Digital Portfolio", 
+    nama: "Personal Branding & Digital Portfolio",
     slug: "website-portofolio",
     kategori: [PROJECT_CATEGORY.WEB_DEV, PROJECT_CATEGORY.UI_UX],
     thumbnail: porto,
 
     shortDesc:
-      "A high-performance personal ecosystem designed to bridge the gap between creative UI/UX design and robust Software Engineering.",
+      "A high-performance digital ecosystem engineered to bridge the gap between sophisticated UI/UX design and robust Software Engineering principles.",
 
     fullDesc:
-      "This portfolio is more than just a gallery of work; it is a meticulously engineered digital experience that embodies my professional identity as a 'tech-creative'. Developed from scratch using React.js and Tailwind CSS, the platform focuses on a 'minimalist-premium' aesthetic. I prioritized a clean content hierarchy, ensuring that every interaction—from smooth transitions to responsive layouts—feels intuitive and purposeful. This project demonstrates my ability to translate complex branding concepts into a functional, pixel-perfect, and high-performing web environment.",
-    
+      "To solve the challenge of effectively showcasing a dual-competency in design and engineering, I architected this digital ecosystem from the ground up using React.js and Tailwind CSS. Beyond a simple gallery, I engineered a 'minimalist-premium' experience that prioritizes performance and content hierarchy. By implementing advanced asset optimization and a clean Single Page Application (SPA) architecture, I ensured near-instant load times and fluid transitions. This project serves as a live demonstration of my ability to translate complex branding identities into functional, pixel-perfect, and high-converting web environments.",
+
     tools: [reactjs, tailwind, javascript],
 
     features: [
-      "Signature 'Minimalist-Premium' UI tailored for professional personal branding",
-      "Dynamic Routing & Slug-based navigation for seamless project exploration",
-      "Adaptive Typography and Fluid Grid system for pixel-perfect responsiveness",
-      "High-performance asset optimization and lazy-loading for near-instant load times",
-      "Integrated AOS (Animate On Scroll) for a sophisticated, cinematic user journey",
+      "Custom-engineered 'Minimalist-Premium' UI framework tailored for high-end professional branding",
+      "Dynamic Routing & Slug-based navigation logic for a seamless, SEO-optimized project exploration",
+      "Adaptive Typography and Fluid Grid system for consistent, pixel-perfect responsiveness across all devices",
+      "High-performance asset optimization and lazy-loading, significantly reducing initial payload and load times",
+      "Cinematic user journey integration using Animate On Scroll (AOS) for a sophisticated interactive experience",
     ],
 
     challenges: [
-      "Crafting a custom design system that maintains visual consistency across highly diverse screen resolutions",
-      "Implementing advanced scroll restoration and navigation logic to ensure a flawless user experience in a Single Page Application (SPA)",
+      "Developing a scalable custom design system that maintains visual integrity across highly diverse screen resolutions and aspect ratios.",
+      "Engineered advanced scroll restoration and state management logic to eliminate navigation friction inherent in Single Page Applications (SPA).",
     ],
 
     results: [
-      "Delivered a centralized digital hub that effectively communicates technical proficiency and design sensibility to potential stakeholders",
-      "Successfully achieved a lightweight and accessible platform with a 100% manual design-to-code execution",
+      "Delivered a centralized digital hub that successfully communicates technical proficiency and design sensibility to global stakeholders.",
+      "Achieved a lightweight, accessible, and high-speed platform through 100% manual design-to-code execution, bypassing bloated third-party frameworks.",
     ],
 
     gallery: [porto],
     year: 2026,
-    role: "Web Developer & UI/UX Designer", 
+    role: "Web Developer & UI/UX Designer",
   },
   // PIMUS
   {
