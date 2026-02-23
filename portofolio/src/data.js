@@ -1,4 +1,5 @@
 import vscode from "/assets/tools/vscode.png";
+import laravel from "/assets/tools/laravel.png";
 import reactjs from "/assets/tools/reactjs.png";
 import nextjs from "/assets/tools/nextjs.png";
 import tailwind from "/assets/tools/tailwind.png";
@@ -137,6 +138,13 @@ export const listTools = [
     ket: "Design App",
     dad: "1100",
   },
+    {
+    id: 12,
+    gambar: laravel,
+    nama: "Laravel",
+    ket: "Framework",
+    dad: "1200",
+  },
 ];
 export const listProyek = [
   {
@@ -187,7 +195,7 @@ export const listProyek = [
 
     fullDesc:
       "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [reactjs, tailwind, javascript],
+    tools: [figma, illustrator],
 
     features: [
       "Informative and structured content presentation",
@@ -259,7 +267,7 @@ export const listProyek = [
 
     fullDesc:
       "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [reactjs, tailwind, javascript],
+    tools: [tailwind, javascript, laravel],
 
     features: [
       "Informative and structured content presentation",
@@ -296,7 +304,7 @@ export const listProyek = [
 
     fullDesc:
       "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [reactjs, tailwind, javascript],
+    tools: [figma],
 
     features: [
       "Informative and structured content presentation",
@@ -332,7 +340,7 @@ export const listProyek = [
 
     fullDesc:
       "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [reactjs, tailwind, javascript],
+    tools: [figma],
 
     features: [
       "Informative and structured content presentation",
@@ -368,7 +376,7 @@ export const listProyek = [
 
     fullDesc:
       "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [reactjs, tailwind, javascript],
+    tools: [figma],
 
     features: [
       "Informative and structured content presentation",
@@ -404,7 +412,7 @@ export const listProyek = [
 
     fullDesc:
       "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [reactjs, tailwind, javascript],
+    tools: [figma],
 
     features: [
       "Informative and structured content presentation",
@@ -440,7 +448,7 @@ export const listProyek = [
 
     fullDesc:
       "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [reactjs, tailwind, javascript],
+    tools: [figma],
 
     features: [
       "Informative and structured content presentation",
@@ -476,7 +484,7 @@ export const listProyek = [
 
     fullDesc:
       "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [reactjs, tailwind, javascript],
+    tools: [figma, illustrator],
 
     features: [
       "Informative and structured content presentation",
@@ -548,7 +556,7 @@ export const listProyek = [
 
     fullDesc:
       "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [reactjs, tailwind, javascript],
+    tools: [figma,illustrator],
 
     features: [
       "Informative and structured content presentation",
