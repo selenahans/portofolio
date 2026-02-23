@@ -129,14 +129,23 @@ const About = () => {
           <p className="text-base/loose mb-6 font-semibold">
             ● Based in Surabaya, Indonesia
           </p>
-          <p className="text-base/loose mb-6 opacity-50">
-            As a third-year Informatics Engineering student at the University of
-            Surabaya, I have a deep interest in Software Engineering, UI/UX
-            Design, and Graphic Design. My main focus is on developing
-            efficient, visually appealing, and user-friendly interfaces and
-            systems. With hands-on experience in UI/UX and web development, I am
-            committed to continuous learning, exploring new technologies, and
-            adapting quickly to challenges in the tech industry.
+          <p className="text-base/loose mb-6 opacity-50 whitespace-pre-line">
+            I’m an Informatics Engineering student at the University of
+            Surabaya, dedicated to the intersection of Software Engineering,
+            UI/UX, and Graphic Design. I specialize in building digital
+            experiences that are not only technically robust but also visually
+            compelling and user-centric. <br /><br />
+
+            My primary focus is on developing
+            efficient systems and intuitive interfaces using a modern tech
+            stack. I believe that great software is built on the balance between
+            clean, scalable code and a seamless user journey. <br /><br />
+
+            I blend my technical skills in web development with a strong design sensibility
+            and proactive communication. Whether working as a teaching assistant
+            or a developer, I thrive in collaborative environments and am
+            committed to continuous learning to solve real-world challenges in
+            the tech industry.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a

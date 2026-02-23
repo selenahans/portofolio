@@ -25,13 +25,10 @@ const Home = () => {
             ● Based in Surabaya, Indonesia
           </p>
           <p className="text-base/loose mb-6 opacity-50">
-            As a third-year Informatics Engineering student at the University of
-            Surabaya, I have a deep interest in Software Engineering, UI/UX
-            Design, and Graphic Design. My main focus is on developing
-            efficient, visually appealing, and user-friendly interfaces and
-            systems. With hands-on experience in UI/UX and web development, I am
-            committed to continuous learning, exploring new technologies, and
-            adapting quickly to challenges in the tech industry.
+            Informatics Engineering student at University of Surabaya with a
+            passion for Software Engineering, UI/UX, and Graphic Design. I focus
+            on building efficient, user-friendly systems and interfaces through
+            continuous learning and tech exploration.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
