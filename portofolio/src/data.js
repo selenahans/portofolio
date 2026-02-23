@@ -21,6 +21,7 @@ import mobft from "./assets/proyek/webdev-mobft.webp";
 import ilpc from "./assets/proyek/graphic-design-ilpc.webp";
 import maniac from "./assets/proyek/graphic-design-maniac.webp";
 import ig from "./assets/proyek/graphic-design-ig.webp";
+import pimus from "./assets/proyek/webdev-pimus.webp";
 
 export const PROJECT_CATEGORY = {
   WEB_DEV: "web-development",
@@ -183,6 +184,43 @@ export const listProyek = [
     gallery: [portofolioImg],
     year: 2026,
     role: "Front-End Developer & UI/UX Designer",
+  },
+  // PIMUS
+  {
+    id: "website-pimus",
+    nama: "Website PIMUS",
+    slug: "website-pimus",
+    kategori: [PROJECT_CATEGORY.WEB_DEV, PROJECT_CATEGORY.UI_UX],
+    thumbnail: pimus,
+
+    shortDesc:
+      "Developed the front-end interface for the PIMUS web platform, serving as a centralized and interactive information hub for participants.",
+
+    fullDesc:
+      "Serving as a Front-End Developer for the PIMUS platform, I was responsible for building the main website to function as a comprehensive information hub. Similar to my work on faculty orientation platforms, this project focused on presenting event details, activity schedules, and essential program information in a highly accessible manner. My work involved designing and implementing user interfaces, page layouts, and interaction flows to ensure an intuitive, responsive, and engaging user experience for all event participants.",
+    tools: [reactjs, tailwind, javascript, laravel, bootstrap],
+
+    features: [
+      "Centralized information hub for PIMUS event details and schedules",
+      "Intuitive and accessible user interface design",
+      "Seamless interaction flows and structured page layouts",
+      "Fully responsive design across desktop and mobile devices",
+      "Clean and maintainable codebase using modern web frameworks",
+    ],
+
+    challenges: [
+      "Designing an interface that is easily navigable for a large volume of event participants",
+      "Structuring complex event schedules and information into a clean, responsive layout",
+    ],
+
+    results: [
+      "Delivered a platform that kept participants well-informed and actively engaged",
+      "Streamlined the event's digital experience with an intuitive and accessible ecosystem",
+    ],
+
+    gallery: [pimus],
+    year: 2026,
+    role: "Front-End Developer",
   },
   // PUSDAKOTA V
   {
