@@ -17,6 +17,9 @@ import fitflow from "./assets/proyek/ui-ux-fitflow.webp";
 import producera from "./assets/proyek/ui-ux-producera.webp";
 import hijauin from "./assets/proyek/ui-ux-hijauin.webp";
 import mobft from "./assets/proyek/webdev-mobft.webp";
+import ilpc from "./assets/proyek/graphic-design-ilpc.webp";
+import maniac from "./assets/proyek/graphic-design-maniac.webp";
+import ig from "./assets/proyek/graphic-design-ig.webp";
 
 export const PROJECT_CATEGORY = {
   WEB_DEV: "web-development",
@@ -425,7 +428,7 @@ export const listProyek = [
     year: 2025,
     role: "Fullstack Developer",
   },
-      {
+  {
     id: "graphic-design-fbeubaya",
     nama: "Graphic Design - FBE Ubaya",
     slug: "graphic-design-fbeubaya",
@@ -458,6 +461,114 @@ export const listProyek = [
     ],
 
     gallery: [fbeubaya],
+    year: 2025,
+    role: "Fullstack Developer",
+  },
+  {
+    id: "graphic-design-ilpc",
+    nama: "Graphic Design - ILPC",
+    slug: "graphic-design-ilpc",
+    kategori: [PROJECT_CATEGORY.GRAPHIC_DESIGN],
+    thumbnail: ilpc,
+
+    shortDesc:
+      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+
+    fullDesc:
+      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+    tools: [reactjs, tailwind, javascript],
+
+    features: [
+      "Informative and structured content presentation",
+      "Smooth scroll animations for enhanced interaction",
+      "Well-organized layout and content hierarchy",
+      "Fully responsive design across all devices",
+      "Dedicated project showcase section",
+    ],
+
+    challenges: [
+      "Maintaining optimal performance despite content-heavy sections",
+      "Ensuring a clean and consistent layout on smaller screen sizes",
+    ],
+
+    results: [
+      "Improved clarity and user understanding of the portfolio content",
+      "Faster loading times",
+    ],
+
+    gallery: [pusdakota],
+    year: 2025,
+    role: "Fullstack Developer",
+  },
+  {
+    id: "graphic-design-maniac",
+    nama: "Graphic Design - Maniac",
+    slug: "graphic-design-maniac",
+    kategori: [PROJECT_CATEGORY.GRAPHIC_DESIGN],
+    thumbnail: maniac,
+
+    shortDesc:
+      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+
+    fullDesc:
+      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+    tools: [reactjs, tailwind, javascript],
+
+    features: [
+      "Informative and structured content presentation",
+      "Smooth scroll animations for enhanced interaction",
+      "Well-organized layout and content hierarchy",
+      "Fully responsive design across all devices",
+      "Dedicated project showcase section",
+    ],
+
+    challenges: [
+      "Maintaining optimal performance despite content-heavy sections",
+      "Ensuring a clean and consistent layout on smaller screen sizes",
+    ],
+
+    results: [
+      "Improved clarity and user understanding of the portfolio content",
+      "Faster loading times",
+    ],
+
+    gallery: [maniac],
+    year: 2025,
+    role: "Fullstack Developer",
+  },
+  {
+    id: "graphic-design-ig",
+    nama: "Graphic Design - Industrial Games",
+    slug: "graphic-design-ig",
+    kategori: [PROJECT_CATEGORY.GRAPHIC_DESIGN],
+    thumbnail: ig,
+
+    shortDesc:
+      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+
+    fullDesc:
+      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
+    tools: [reactjs, tailwind, javascript],
+
+    features: [
+      "Informative and structured content presentation",
+      "Smooth scroll animations for enhanced interaction",
+      "Well-organized layout and content hierarchy",
+      "Fully responsive design across all devices",
+      "Dedicated project showcase section",
+    ],
+
+    challenges: [
+      "Maintaining optimal performance despite content-heavy sections",
+      "Ensuring a clean and consistent layout on smaller screen sizes",
+    ],
+
+    results: [
+      "Improved clarity and user understanding of the portfolio content",
+      "Faster loading times",
+    ],
+
+    gallery: [ig],
     year: 2025,
     role: "Fullstack Developer",
   },
