@@ -154,7 +154,7 @@ export const listProyek = [
     nama: "Website Portofolio",
     slug: "website-portofolio",
     kategori: [PROJECT_CATEGORY.WEB_DEV, PROJECT_CATEGORY.UI_UX],
-    thumbnail: portofolioImg,
+    thumbnail: pusdakota,
 
     shortDesc:
       "A dynamic and highly responsive personal portfolio website built to showcase my professional journey, creative projects, and dual expertise in design and development.",
@@ -181,7 +181,7 @@ export const listProyek = [
       "Achieved seamless cross-device compatibility and a highly intuitive user browsing experience",
     ],
 
-    gallery: [portofolioImg],
+    gallery: [pusdakota],
     year: 2026,
     role: "Front-End Developer & UI/UX Designer",
   },
