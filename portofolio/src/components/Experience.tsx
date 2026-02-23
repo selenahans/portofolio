@@ -37,12 +37,11 @@ const ExperienceItem = ({ item, index }: ExperienceItemProps) => {
       data-aos="fade-up"
       data-aos-delay={index * 50}
     >
-      {/* Header: Dibuat sangat bersih tanpa background kotak yang berat */}
+      {/* Header */}
       <div
         onClick={() => setIsOpen(!isOpen)}
         className="cursor-pointer flex items-center gap-6 py-8 px-2 transition-all duration-300 hover:bg-slate-50/50 rounded-xl"
       >
-        {/* Logo dengan desain minimalis */}
         {item.logo && (
           <div className="hidden sm:block shrink-0">
             <img
@@ -74,7 +73,7 @@ const ExperienceItem = ({ item, index }: ExperienceItemProps) => {
           </div>
         </div>
 
-        {/* Indikator Simpel */}
+        {/* Indikator */}
         <div className="text-slate-300 group-hover:text-[#3D2B1F] transition-colors">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +92,7 @@ const ExperienceItem = ({ item, index }: ExperienceItemProps) => {
         </div>
       </div>
 
-      {/* Konten: Fokus pada pembacaan poin-poin singkat */}
+      {/* Konten: Hanya menampilkan Responsibilities */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -103,52 +102,18 @@ const ExperienceItem = ({ item, index }: ExperienceItemProps) => {
             transition={{ duration: 0.4, ease: [0.23, 1, 0.32, 1] }}
             className="overflow-hidden"
           >
-            <div className="pb-10 pt-2 px-2 md:ml-[72px] grid grid-cols-1 md:grid-cols-12 gap-8">
-              {/* Kolom Kiri: Responsibilities & Impact */}
-              <div className="md:col-span-8 space-y-6">
-                <div>
-                  <ul className="space-y-3">
-                    {item.details.responsibilities.map((resp, idx) => (
-                      <li
-                        key={idx}
-                        className="text-[15px] text-slate-600 leading-relaxed flex gap-3"
-                      >
-                        <span className="text-[#3D2B1F]/30">•</span>
-                        {resp}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                {/* Impact: Ditampilkan seperti quote kecil yang elegan */}
-                <div className="border-l-2 border-[#3D2B1F]/10 pl-4 py-1">
-                  {item.details.impact.map((imp, idx) => (
-                    <p
-                      key={idx}
-                      className="text-sm text-[#3D2B1F]/80 italic font-medium"
-                    >
-                      " {imp} "
-                    </p>
-                  ))}
-                </div>
-              </div>
-
-              {/* Kolom Kanan: Skills (Dibuat sangat kecil dan bersih) */}
-              <div className="md:col-span-4">
-                <h4 className="text-[10px] font-black text-[#3D2B1F]/30 uppercase tracking-[0.2em] mb-3">
-                  Tools & Skills
-                </h4>
-                <div className="flex flex-wrap gap-1.5">
-                  {item.details.whatILearned.map((skill, idx) => (
-                    <span
-                      key={idx}
-                      className="text-[10px] font-medium border border-slate-200 text-slate-500 px-2.5 py-1 rounded-md hover:border-[#3D2B1F]/20 hover:text-[#3D2B1F] transition-colors"
-                    >
-                      {skill}
-                    </span>
-                  ))}
-                </div>
-              </div>
+            <div className="pb-8 pt-2 px-2 md:ml-[72px]">
+              <ul className="space-y-4">
+                {item.details.responsibilities.map((resp, idx) => (
+                  <li
+                    key={idx}
+                    className="text-[15px] text-slate-600 leading-relaxed flex gap-3 items-start"
+                  >
+                    <span className="text-[#3D2B1F]/30 mt-1.5 shrink-0 text-[10px]">●</span>
+                    {resp}
+                  </li>
+                ))}
+              </ul>
             </div>
           </motion.div>
         )}
@@ -169,7 +134,7 @@ const ExperienceSection = ({ listExperience }: ExperienceSectionProps) => {
         Experience
       </h1>
 
-      <div className="w-4/5 mx-auto flex flex-col gap-6">
+      <div className="w-4/5 mx-auto flex flex-col">
         {[...listExperience]
           .sort((a, b) => b.id - a.id)
           .map((item, index) => (

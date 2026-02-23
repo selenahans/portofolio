@@ -732,4 +732,29 @@ export const listExperience = [
       ],
     },
   },
+  {
+    id: 4,
+    title: "Machine Learning Cohort",
+    company: "Asah Program by Dicoding & Accenture",
+    location: "Remote",
+    period: "Aug 2025 - Jan 2026",
+    type: "Cohort",
+    logo: "/assets/experience/dicoding.webp",
+
+    details: {
+      responsibilities: [
+        "Participated in an intensive, industry-aligned training under the Kampus Berdampak Mandiri initiative.",
+        "Developed end-to-end Machine Learning solutions through rigorous project-based learning.",
+      ],
+      whatILearned: [
+        "Mastery of high-demand ML topics and industry-standard digital skills.",
+        "Transitioning theoretical models into practical, real-world AI applications.",
+        "Strengthening critical soft skills for the competitive tech landscape.",
+      ],
+      impact: [
+        "Successfully delivered real-world ML projects meeting industry benchmarks.",
+        "Gained a comprehensive perspective on AI deployment within a corporate-aligned environment.",
+      ],
+    },
+  },
 ];
