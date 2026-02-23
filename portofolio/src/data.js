@@ -722,7 +722,7 @@ export const listExperience = [
     location: "Remote",
     period: "Aug 2025 - Jan 2026",
     type: "Cohort",
-    logo: "/assets/experience/dicoding.webp",
+    logo: "/assets/experience/asah.webp",
 
     details: {
       responsibilities: [
