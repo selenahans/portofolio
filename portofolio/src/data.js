@@ -543,7 +543,7 @@ export const listProyek = [
     fullDesc:
       "As the Vice Coordinator for Design, Documentation, and Decoration, I was responsible for building the visual soul of ILPC 2025. I spearheaded the creation of a comprehensive design system—defining typography, color theory, and core visual elements—that stayed consistent across every touchpoint. My role involved high-level coordination with multiple divisions to deliver everything from high-traffic social media campaigns to complex rally game assets and website graphics. Beyond design, I managed the full documentation of the event, ensuring that the brand’s story was captured and preserved through a professional and cohesive lens.",
 
-    tools: [figma, illustrator, premiere_pro],
+    tools: [figma, illustrator],
 
     features: [
       "Development of a complete brand identity system and style guide",
