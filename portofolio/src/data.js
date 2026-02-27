@@ -505,7 +505,7 @@ export const listProyek = [
     fullDesc:
       "Working with the Faculty of Business and Economics at Ubaya, I was responsible for producing high-quality visual assets that align with the faculty's established brand identity. My role went beyond simple execution; I focused on creating a structured content hierarchy for academic posters, event banners, and digital promotional materials. I prioritized a clean, professional aesthetic to ensure that every piece of information was both visually engaging and easy to digest. By maintaining a consistent design language across various media, I helped strengthen the faculty's professional image for both internal academic needs and external public engagement.",
 
-    tools: [figma, illustrator, photoshop],
+    tools: [figma, illustrator],
 
     features: [
       "Strategic design of academic posters, event banners, and promotional assets",
