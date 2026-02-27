@@ -240,9 +240,9 @@ export const listProyek = [
     tools: [figma, illustrator],
 
     features: [
-      "End-to-end design of posters, infographics, and presentation assets",
+      "End to end design of posters, infographics, and presentation assets",
       "Development and maintenance of a consistent organizational brand identity",
-      "Cross-functional collaboration for seamless content publication",
+      "Cross functional collaboration for seamless content publication",
       "Management of visual assets for the official website and social media",
     ],
 
@@ -269,7 +269,7 @@ export const listProyek = [
     thumbnail: ecosrot,
 
     shortDesc:
-      "A user-friendly directory website designed to showcase eco-friendly local MSMEs dedicated to reducing waste and promoting sustainable products.",
+      "A user friendly directory website designed to showcase eco friendly local MSMEs dedicated to reducing waste and promoting sustainable products.",
 
     fullDesc:
       "ECOsrot is a directory platform designed to highlight local MSMEs (UMKM) that are committed to environmental sustainability. The platform specifically features businesses that actively minimize waste or upcycle waste materials into their products. As the UI/UX Designer, my goal was to design an intuitive and engaging interface that makes it easy for users to discover and support these eco-conscious brands. The design focuses on clear categorization, accessible information, and a seamless browsing experience to connect environmentally aware consumers with sustainable local businesses.",
