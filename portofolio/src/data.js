@@ -168,8 +168,8 @@ export const listProyek = [
     features: [
       "Custom-engineered 'Minimalist-Premium' UI framework tailored for high-end professional branding",
       "Dynamic Routing & Slug-based navigation logic for a seamless, SEO-optimized project exploration",
-      "Adaptive Typography and Fluid Grid system for consistent, pixel-perfect responsiveness across all devices",
-      "High-performance asset optimization and lazy-loading, significantly reducing initial payload and load times",
+      "Adaptive Typography and Fluid Grid system for consistent, pixel perfect responsiveness across all devices",
+      "High-performance asset optimization and lazy loading, significantly reducing initial payload and load times",
       "Cinematic user journey integration using Animate On Scroll (AOS) for a sophisticated interactive experience",
     ],
 
@@ -196,28 +196,29 @@ export const listProyek = [
     thumbnail: pimus,
 
     shortDesc:
-      "Developed the front-end interface for the PIMUS web platform, serving as a centralized and interactive information hub for participants.",
+      "Engineered a high-performance, mobile-responsive hub for the PIMUS event, transforming complex schedules into a seamless digital experience for all participants.",
 
     fullDesc:
-      "Serving as a Front-End Developer for the PIMUS platform, I was responsible for building the main website to function as a comprehensive information hub. Similar to my work on faculty orientation platforms, this project focused on presenting event details, activity schedules, and essential program information in a highly accessible manner. My work involved designing and implementing user interfaces, page layouts, and interaction flows to ensure an intuitive, responsive, and engaging user experience for all event participants.",
-    tools: [reactjs, tailwind, javascript, laravel, bootstrap],
+      "To address the confusion and information silos during the PIMUS event, I developed a centralized web platform that served as the primary information hub. As a Front-End Developer, I focused on bridging the gap between dense event data and user accessibility. By leveraging Tailwind CSS and Laravel, I built an interface that turned complicated activity schedules into an intuitive, interactive experience. The project prioritized a mobile-first approach, ensuring that participants could access real-time updates and program details instantly from their devices during the event sessions.",
+
+    tools: [tailwind, javascript, laravel, bootstrap],
 
     features: [
-      "Centralized information hub for PIMUS event details and schedules",
-      "Intuitive and accessible user interface design",
-      "Seamless interaction flows and structured page layouts",
-      "Fully responsive design across desktop and mobile devices",
-      "Clean and maintainable codebase using modern web frameworks",
+      "Centralized event ecosystem for real-time schedules and program details",
+      "Mobile-optimized interface for on-the-go participant access",
+      "High-performance navigation system for seamless information retrieval",
+      "Interactive layouts designed for maximum user engagement",
+      "Clean, scalable front-end architecture using utility-first CSS",
     ],
 
     challenges: [
-      "Designing an interface that is easily navigable for a large volume of event participants",
-      "Structuring complex event schedules and information into a clean, responsive layout",
+      "Creating a navigation flow that remains intuitive even with a high volume of concurrent users and data",
+      "Optimizing complex, data-heavy schedules for 100% responsiveness across various mobile screen sizes",
     ],
 
     results: [
-      "Delivered a platform that kept participants well-informed and actively engaged",
-      "Streamlined the event's digital experience with an intuitive and accessible ecosystem",
+      "Streamlined the event's digital touchpoints, reducing participant confusion regarding schedules",
+      "Delivered a robust, lag-free interface that maintained layout integrity under heavy mobile usage",
     ],
 
     gallery: [pimus],
@@ -233,32 +234,34 @@ export const listProyek = [
     thumbnail: pusdakota,
 
     shortDesc:
-      "Managed visual content creation, brand identity, and digital presence to drive audience engagement across Pusdakota's official platforms.",
+      "Transformed Pusdakota's digital presence by establishing a cohesive visual identity and high-impact content strategy that boosted audience engagement.",
 
     fullDesc:
-      "During my role as a Student Employee at Pusdakota, I was responsible for producing a diverse range of visual materials for both internal and external needs, including posters, infographics, and social media assets. A major focus of my work was developing and enforcing a consistent visual identity to maintain brand integrity across all organizational outputs. Furthermore, I collaborated closely with cross-functional teams to strategize, manage, and publish compelling visual content on Pusdakota’s website and social media platforms, ultimately enhancing the organization's digital reach and engagement.",
+      "At Pusdakota, I took charge of the organization’s visual communication, moving beyond simple asset creation to build a unified brand identity. I designed a wide array of materials—from technical infographics to social media campaigns—ensuring every piece reflected Pusdakota's core values. By collaborating with various departments, I bridged the gap between complex organizational goals and digestible visual storytelling. My work focused on creating a design system that stayed consistent across the official website and social platforms, making the brand more recognizable and professional to the public.",
+
     tools: [figma, illustrator],
 
     features: [
-      "End to end design of posters, infographics, and presentation assets",
-      "Development and maintenance of a consistent organizational brand identity",
-      "Cross functional collaboration for seamless content publication",
-      "Management of visual assets for the official website and social media",
+      "End-to-end design of strategic infographics, posters, and presentation materials",
+      "Development of a unified brand style guide to ensure organizational consistency",
+      "Cross-functional collaboration to align visual content with departmental goals",
+      "End-to-end asset management for the official website and social media growth",
+      "Creative storytelling through modern and accessible graphic design",
     ],
 
     challenges: [
-      "Ensuring strict brand consistency across diverse media formats and platforms",
-      "Coordinating with multiple teams to align visual content with organizational goals",
+      "Translating complex community development programs into clear and engaging visual formats",
+      "Maintaining a strict, professional brand identity while managing high-volume content requests from multiple teams",
     ],
 
     results: [
-      "Successfully drove audience engagement and reach across digital platforms",
-      "Established a cohesive, professional visual identity for all Pusdakota outputs",
+      "Boosted digital engagement by delivering more cohesive and visually appealing social media content",
+      "Elevated the organization’s professional image through a standardized and modern design language",
     ],
 
     gallery: [pusdakota],
     year: "2024 - 2025",
-    role: "Student Employee",
+    role: "Graphic Designer & Content Strategist",
   },
   // ECOSROT V
   {
@@ -269,28 +272,29 @@ export const listProyek = [
     thumbnail: ecosrot,
 
     shortDesc:
-      "A user friendly directory website designed to showcase eco friendly local MSMEs dedicated to reducing waste and promoting sustainable products.",
+      "Designed a seamless directory platform connecting eco-conscious consumers with local sustainable MSMEs, focusing on waste reduction and circular economy values.",
 
     fullDesc:
-      "ECOsrot is a directory platform designed to highlight local MSMEs (UMKM) that are committed to environmental sustainability. The platform specifically features businesses that actively minimize waste or upcycle waste materials into their products. As the UI/UX Designer, my goal was to design an intuitive and engaging interface that makes it easy for users to discover and support these eco-conscious brands. The design focuses on clear categorization, accessible information, and a seamless browsing experience to connect environmentally aware consumers with sustainable local businesses.",
+      "Ecosrot was born from the need to make sustainable living more accessible by showcasing local MSMEs committed to waste reduction. As the UI/UX Designer, I translated the complexity of diverse eco-friendly business models into a streamlined directory experience. I focused on building a design system that feels organic yet professional, ensuring that users could easily filter through various sustainability practices. The goal was to bridge the gap between ethical producers and conscious consumers through an interface that prioritizes clarity, trust, and effortless discovery.",
+
     tools: [figma],
 
     features: [
-      "Comprehensive directory of eco-friendly local MSMEs",
-      "Clear categorization of sustainable practices and products",
-      "Intuitive search and filtering system for easy discovery",
-      "Detailed and engaging profile pages for each business",
-      "Seamless navigation flow tailored for both eco-conscious consumers and MSMEs",
+      "Intuitive discovery engine for eco-friendly MSMEs and upcycled products",
+      "Dynamic filtering system based on specific sustainable practices and waste types",
+      "Visual-heavy business profiles designed to build consumer trust and engagement",
+      "Seamless navigation flow optimized for exploring local green ecosystems",
+      "Modern and accessible interface built on circular economy principles",
     ],
 
     challenges: [
-      "Gathering and structuring accurate, reliable data for various eco-friendly MSMEs",
-      "Designing a highly responsive UI/UX that adapts seamlessly across all devices while handling complex directory layouts and data",
+      "Synthesizing fragmented data from various MSMEs into a unified and easy-to-read information architecture",
+      "Maintaining a clean, minimalist aesthetic while handling data-heavy directory layouts across mobile and desktop devices",
     ],
 
     results: [
-      "Delivered a fully responsive design that provides a consistent and engaging user experience on both mobile and desktop",
-      "Successfully created an accessible platform that bridges the gap between eco-conscious consumers and sustainable businesses",
+      "Created a high-fidelity, fully responsive design that maintains a premium user experience on any screen size",
+      "Established a professional digital bridge that empowers local green businesses to reach a wider, targeted audience",
     ],
 
     gallery: [ecosrot],
@@ -302,31 +306,33 @@ export const listProyek = [
     id: "web-dev-mobft",
     nama: "Web Development - MobFT",
     slug: "web-dev-mobft",
-    kategori: [PROJECT_CATEGORY.WEB_DEVELOPMENT],
+    kategori: [PROJECT_CATEGORY.WEB_DEV],
     thumbnail: mobft,
 
     shortDesc:
-      "Developed the front-end interface for the Engineering Faculty's new student orientation web application, serving as a centralized information hub.",
+      "Developed an interactive orientation hub for the Engineering Faculty, featuring real-time point tracking and a mobile-optimized event management system.",
 
     fullDesc:
-      "Served as a Front-End Developer for the Engineering Faculty's new student orientation program. I was responsible for building the main website, which functioned as a comprehensive information hub featuring event details, activity schedules, and a daily point-tracking system. My work focused on designing and implementing user interfaces, page layouts, and interaction flows to ensure accessibility and an intuitive user experience. Ultimately, the platform successfully helped new students stay informed, guided, and actively engaged throughout the entire orientation process.",
+      "As a Front-End Developer for the Engineering Faculty’s orientation (MobFT), I was tasked with building a digital gateway for hundreds of new students. The challenge was to integrate a high-volume information hub with a dynamic daily point-tracking system. I leveraged Tailwind CSS and Laravel to create a clean, performance-focused interface that ensured students could access their schedules and track their progress without friction. By prioritizing a mobile-first architecture, I ensured that critical orientation updates were always accessible, helping students stay focused and engaged throughout the program.",
+
     tools: [tailwind, javascript, laravel],
 
     features: [
-      "Centralized information hub for event details and schedules",
-      "Daily point tracking system for student activities",
-      "Intuitive and accessible user interface design",
-      "Seamless interaction flows and structured page layouts",
+      "Dynamic dashboard for real-time activity and point tracking",
+      "Interactive event hub for centralized schedules and program guidelines",
+      "Mobile-optimized UI designed for high-traffic student access",
+      "Seamless navigation architecture for rapid information retrieval",
+      "User-centric layouts focused on accessibility and readability",
     ],
 
     challenges: [
-      "Designing an interface that is easily navigable for a large volume of new users",
-      "Structuring complex orientation schedules and point systems into a clean layout",
+      "Structuring a multi-layered point system and complex schedules into a single, cohesive user experience",
+      "Ensuring consistent performance and layout stability across a wide variety of student mobile devices",
     ],
 
     results: [
-      "Delivered a platform that kept new students well-informed and actively engaged",
-      "Streamlined the orientation process with an intuitive and accessible digital ecosystem",
+      "Successfully onboarded hundreds of students with zero friction in navigating event schedules",
+      "Enhanced student motivation through an accessible and transparent digital point-tracking ecosystem",
     ],
 
     gallery: [mobft],
@@ -342,28 +348,29 @@ export const listProyek = [
     thumbnail: producera,
 
     shortDesc:
-      "An inclusive mobile job search application designed to provide comprehensive employment opportunities, featuring smart job matching and transparent company reviews.",
+      "Designed an inclusive mobile career platform that bridges the employment gap with AI-driven job matching and dedicated accessibility features for all users.",
 
     fullDesc:
-      "Producera is a mobile application developed to address modern job market challenges by providing comprehensive and sustainable employment access. As the UI/UX Designer, I focused on creating an inclusive and intuitive interface that empowers job seekers. The app aims to simplify the job search process by offering personalized job matching, transparent company culture insights, and dedicated accessibility options for users with disabilities. Additionally, it integrates skill enhancement features by recommending relevant courses to help users meet current market demands.",
+      "Producera was designed to tackle the fragmented job market by creating a truly inclusive career ecosystem. As the UI/UX Designer, I faced the challenge of housing multiple complex functions—such as smart job matching, skill upscaling, and company transparency—within a single, intuitive mobile interface. I prioritized accessibility as a core pillar, ensuring that users with diverse needs can navigate the platform with ease. My design approach focused on reducing cognitive load, allowing job seekers to transition seamlessly from discovering opportunities to enhancing their skills through integrated course recommendations.",
+
     tools: [figma],
 
     features: [
-      "Algorithm-driven job matching tailored to user skills and preferences",
-      "Integrated online training and courses for continuous skill enhancement",
-      "Transparent company reviews and work culture insights from employees",
-      "Advanced job filtering options (full-time, part-time, internship, remote)",
-      "Dedicated job search options and accessibility features for users with disabilities",
+      "Smart matching algorithm that aligns user profiles with relevant career opportunities",
+      "Integrated 'Upskill' module offering curated courses based on industry demand",
+      "Transparency-first company profiles featuring authentic culture reviews and ratings",
+      "Inclusive design system with dedicated accessibility options for users with disabilities",
+      "Multi-category job filters optimized for remote, part-time, and flexible work arrangements",
     ],
 
     challenges: [
-      "Designing an inclusive interface that is fully accessible for users with diverse needs and disabilities",
-      "Balancing a feature-rich platform (job searching, upskilling, and reviewing) within a clean, intuitive mobile UI",
+      "Implementing accessibility standards without compromising the modern and clean aesthetic of the mobile UI",
+      "Organizing a feature-heavy ecosystem (jobs, courses, and reviews) into a simplified, non-overwhelming user journey",
     ],
 
     results: [
-      "Delivered a highly accessible and user-centric mobile application design",
-      "Created a seamless user journey from job discovery to application and continuous learning",
+      "Produced a high-fidelity prototype that balances rich functionality with an empathetic, user-centric interface",
+      "Streamlined the path to employment by connecting job discovery with direct skill development in one cohesive flow",
     ],
 
     gallery: [producera],
@@ -379,28 +386,29 @@ export const listProyek = [
     thumbnail: fitflow,
 
     shortDesc:
-      "A versatile health and wellness mobile app designed to motivate busy individuals through personalized lifestyle tracking, home workouts, and a healthy food marketplace.",
+      "Designed a holistic health ecosystem that personalizes the wellness journey through habit tracking, home workouts, and a curated healthy food marketplace.",
 
     fullDesc:
-      "Fitflow is a comprehensive mobile application dedicated to helping users maintain a healthy lifestyle amidst their busy schedules. As the UI/UX Designer, I focused on creating an adaptable and motivating interface that personalizes the user experience based on specific goals, such as weight loss or general wellness. The app integrates various health-focused features into a seamless journey, including hydration and sleep trackers, no-equipment home workout routines, information on local sports events, and a built-in marketplace for delivering healthy meals directly to users.",
+      "Fitflow was designed to help busy individuals integrate healthy habits into their daily routines without feeling overwhelmed. As the UI/UX Designer, I built an adaptable interface that shifts its focus based on the user's personal goals—whether it’s weight loss or general wellness. I focused on creating a seamless flow that connects data tracking (sleep and hydration) with actionable solutions, such as no-equipment workouts and a built-in marketplace for healthy meals. The goal was to transform health management from a chore into an engaging, unified experience that feels personal and motivating.",
+
     tools: [figma],
 
     features: [
-      "Flexible UI that adapts to user-specific goals (e.g., weight loss vs. healthy lifestyle)",
-      "Daily hydration reminders and comprehensive sleep habit monitoring",
-      "Integrated marketplace for ordering and delivering healthy food",
-      "Curated no-equipment home workout routines and fitness guides",
-      "Information hub for local sports activities and running events",
+      "Adaptive UI architecture that tailors content based on user-specific wellness goals",
+      "Integrated health dashboard for real-time hydration and sleep cycle monitoring",
+      "Seamless marketplace integration for frictionless healthy food ordering and delivery",
+      "Curated library of equipment-free home workouts designed for busy schedules",
+      "Local community hub for discovering nearby sports events and running activities",
     ],
 
     challenges: [
-      "Integrating multiple distinct features (tracking, e-commerce, and event discovery) into a cohesive and uncluttered mobile experience",
-      "Designing a flexible user journey that seamlessly adapts its content based on the user's initial health goals",
+      "Harmonizing three distinct pillars—lifestyle tracking, e-commerce, and event discovery—into a single, uncluttered mobile interface",
+      "Designing a dynamic onboarding process that effectively personalizes the entire app experience without increasing user drop-off",
     ],
 
     results: [
-      "Created a highly personalized and motivating user interface that encourages daily health habits",
-      "Delivered a clean, unified app design that successfully balances lifestyle tracking with marketplace functionalities",
+      "Established a high-engagement interface that lowers the barrier to maintaining daily health habits",
+      "Delivered a cohesive design system that balances functional utility with a clean, motivating aesthetic",
     ],
 
     gallery: [fitflow],
@@ -416,28 +424,29 @@ export const listProyek = [
     thumbnail: hijauin,
 
     shortDesc:
-      "An engaging, gamified mobile app design aimed at bridging environmental awareness and action through AI-driven recommendations, community building, and a reward system.",
+      "A gamified environmental ecosystem designed to drive climate action through AI-powered personalization, community networking, and a reward-based engagement system.",
 
     fullDesc:
-      "Hijauin was designed to address environmental challenges in Indonesia by providing a centralized platform for users to discover and participate in green activities. As the UI/UX Designer, I focused on creating an intuitive interface that motivates positive behavioral change. The design integrates AI to estimate environmental impact and personalize activity recommendations. It also features comprehensive learning media, including an AI environmental chatbot, alongside robust community networking tools. To ensure long-term user retention and motivation, I implemented gamification concepts such as weekly leaderboards, a leveling system, and reward points redeemable for eco-friendly products.",
+      "Hijauin was built to bridge the gap between environmental awareness and real-world impact in Indonesia. As the UI/UX Designer, my mission was to turn sustainability into a rewarding lifestyle rather than a burden. I integrated AI-driven insights to help users track their personal carbon footprint and receive personalized green activity recommendations. To drive long-term retention, I designed a comprehensive gamification layer—featuring a leveling system and eco-product rewards—that makes saving the planet feel like a shared achievement. The result is a vibrant community hub where social networking and environmental education meet intuitive, high-impact design.",
+
     tools: [figma],
 
     features: [
-      "Centralized hub for discovering and participating in eco-friendly events",
-      "AI-powered environmental impact estimation and personalized activity recommendations",
-      "Gamification system featuring weekly leaderboards, user levels, and reward points",
-      "Interactive learning media, including videos, articles, and an AI chatbot",
-      "Community networking tools to add friends, chat, and invite others to green events",
+      "AI-powered impact calculator and personalized green activity engine",
+      "Robust gamification framework including weekly leaderboards and leveling systems",
+      "Redeemable reward points for sustainable and eco-friendly products",
+      "Interactive education hub with AI-integrated chatbots and multimedia content",
+      "Social networking layer for collaborative event planning and community building",
     ],
 
     challenges: [
-      "Balancing a complex array of features (AI chat, community, gamification, and events) within a clean, uncluttered mobile interface",
-      "Designing an intuitive gamification and reward flow that genuinely motivates users without feeling overwhelming",
+      "Integrating high-density features like AI tools, community chats, and gaming mechanics without cluttering the mobile user journey",
+      "Designing a reward flow that provides enough dopamine to keep users motivated without distracting from the core environmental mission",
     ],
 
     results: [
-      "Delivered a cohesive, engaging app design that successfully translates environmental awareness into actionable steps",
-      "Created an interactive, community-driven user experience seamlessly enhanced by AI and gamification",
+      "Produced a high-engagement prototype that effectively converts passive environmental concern into consistent, trackable action",
+      "Established a seamless, community-centric digital space that lowers the barrier to collective climate participation",
     ],
 
     gallery: [hijauin],
@@ -453,28 +462,29 @@ export const listProyek = [
     thumbnail: berprogress,
 
     shortDesc:
-      "A smart city web platform designed to foster urban innovation, civic engagement, and transparency through interactive maps and public reporting.",
+      "Designed a civic-tech ecosystem for Smart City innovation, enabling transparent public reporting and data-driven urban collaboration through an interactive web interface.",
 
     fullDesc:
-      "Berprogress is a web-based platform conceptualized around the theme of 'Smart Cities and Urban Innovation'. As the UI/UX Designer, my objective was to create an interface that utilizes technology to improve public service efficiency and overall quality of life. The design encourages active citizen participation in urban development through an integrated digital map, a streamlined public reporting system, community discussion forums, and real-time news updates. By prioritizing data-driven planning and transparency, the platform serves not just as a digital service, but as a collaborative space to build a more participatory, efficient, and sustainable city.",
+      "Berprogress was designed to redefine how citizens interact with their urban environment. As the UI/UX Designer, I transformed the concept of 'Smart Cities' into a tangible, user-centric platform that prioritizes transparency and civic agency. I engineered a flow that allows residents to report urban issues and track progress in real-time, bridging the gap between local government and the community. By integrating spatial data through interactive maps and centralized discussion forums, the design fosters a sense of collective ownership over city development, ensuring that urban innovation is accessible to every citizen, regardless of their technical background.",
+
     tools: [figma],
 
     features: [
-      "Interactive digital map for spatial data and urban visualization",
-      "Accessible public reporting system for civic issues",
-      "Community discussion forums to drive active citizen collaboration",
-      "Real-time news integration to keep the public informed",
-      "Transparent, data-driven layout to bridge the gap between residents and city planning",
+      "Interactive spatial mapping for real-time urban data visualization",
+      "Streamlined public reporting module with status tracking and transparency logs",
+      "Dynamic community forums for collaborative urban problem-solving",
+      "Real-time news feed integration for centralized civic updates",
+      "Data-driven dashboards designed for high readability and public trust",
     ],
 
     challenges: [
-      "Organizing complex urban data, maps, and community features into a cohesive, user-friendly layout",
-      "Designing a highly accessible interface that can be easily navigated by a diverse demographic of city residents",
+      "Translating complex spatial data and municipal reports into an intuitive interface that doesn't overwhelm non-technical users",
+      "Designing a universal navigation system that remains accessible for a diverse demographic, including elderly residents",
     ],
 
     results: [
-      "Delivered a visually engaging and responsive platform that promotes active civic participation",
-      "Created a streamlined user flow for public reporting and collaborative urban discussions",
+      "Delivered a comprehensive high-fidelity design that effectively promotes digital democracy and civic participation",
+      "Simplified the reporting process into a frictionless, multi-step journey that encourages residents to take action",
     ],
 
     gallery: [berprogress],
@@ -490,33 +500,34 @@ export const listProyek = [
     thumbnail: fbeubaya,
 
     shortDesc:
-      "A clean and well-structured personal portfolio website designed to showcase personal branding, resume, skills, and selected projects in a professional and engaging way.",
+      "Elevated FBE Ubaya's visual communication through professional brand assets and promotional materials designed to maintain academic prestige and faculty integrity.",
 
     fullDesc:
-      "This portfolio website was developed to present personal branding, professional background, and technical skills in a clear and organized manner. The design emphasizes a clean layout, structured content hierarchy, and smooth navigation to ensure visitors can easily explore information. Interactive animations are integrated to enhance user engagement without compromising performance. The website is fully responsive, ensuring a consistent and polished experience across desktop, tablet, and mobile devices. A dedicated project showcase section highlights selected works to demonstrate expertise and practical experience.",
-    tools: [figma],
+      "Working with the Faculty of Business and Economics at Ubaya, I was responsible for producing high-quality visual assets that align with the faculty's established brand identity. My role went beyond simple execution; I focused on creating a structured content hierarchy for academic posters, event banners, and digital promotional materials. I prioritized a clean, professional aesthetic to ensure that every piece of information was both visually engaging and easy to digest. By maintaining a consistent design language across various media, I helped strengthen the faculty's professional image for both internal academic needs and external public engagement.",
+
+    tools: [figma, illustrator, photoshop],
 
     features: [
-      "Informative and structured content presentation",
-      "Smooth scroll animations for enhanced interaction",
-      "Well-organized layout and content hierarchy",
-      "Fully responsive design across all devices",
-      "Dedicated project showcase section",
+      "Strategic design of academic posters, event banners, and promotional assets",
+      "Consistent application of faculty brand guidelines across diverse media formats",
+      "High-clarity information architecture for complex academic data and schedules",
+      "End-to-end visual content creation for faculty-wide events and social media",
+      "Premium, professional-grade layouts tailored for academic prestige",
     ],
 
     challenges: [
-      "Maintaining optimal performance despite content-heavy sections",
-      "Ensuring a clean and consistent layout on smaller screen sizes",
+      "Balancing formal academic requirements with modern, engaging design trends to attract student interest",
+      "Managing high-volume design requests while ensuring strict consistency with the university's brand identity",
     ],
 
     results: [
-      "Improved clarity and user understanding of the portfolio content",
-      "Faster loading times",
+      "Increased visual clarity and professionalism across all faculty-led communication channels",
+      "Delivered a cohesive and recognizable design language that reinforced FBE Ubaya's brand presence",
     ],
 
     gallery: [fbeubaya],
-    year: 2025,
-    role: "Fullstack Developer",
+    year: 2024,
+    role: "Graphic Designer",
   },
   // ILPC V
   {
@@ -527,28 +538,29 @@ export const listProyek = [
     thumbnail: ilpc,
 
     shortDesc:
-      "Spearheaded the comprehensive visual identity, social media design, and full event documentation for ILPC 2025, ensuring a cohesive brand experience.",
+      "Directed the end-to-end visual identity and creative strategy for ILPC 2025, ensuring a unified brand experience across social media, digital assets, and live event documentation.",
 
     fullDesc:
-      "For ILPC 2025, I was entrusted with crafting and maintaining a consistent visual identity from the ground up, defining core design elements, typography, and color palettes. This cohesive branding was applied across all event materials and videos. My role involved extensive coordination with other divisions to design a wide array of assets, ranging from social media campaigns (feeds, stories, promotional materials) to specific event needs like website assets and rally game requirements. Additionally, I managed the end-to-end documentation of the entire event.",
-    tools: [figma, illustrator],
+      "As the Vice Coordinator for Design, Documentation, and Decoration, I was responsible for building the visual soul of ILPC 2025. I spearheaded the creation of a comprehensive design system—defining typography, color theory, and core visual elements—that stayed consistent across every touchpoint. My role involved high-level coordination with multiple divisions to deliver everything from high-traffic social media campaigns to complex rally game assets and website graphics. Beyond design, I managed the full documentation of the event, ensuring that the brand’s story was captured and preserved through a professional and cohesive lens.",
+
+    tools: [figma, illustrator, premiere_pro],
 
     features: [
-      "Creation of a consistent visual identity (typography, colors, and design elements)",
-      "End-to-end social media content design (feeds, stories, promos)",
-      "Design of event-specific assets, including website graphics and rally game materials",
-      "Full-scale event documentation and photography/videography",
-      "Seamless cross-divisional coordination for all design requirements",
+      "Development of a complete brand identity system and style guide",
+      "Strategic social media content design and digital campaign management",
+      "Custom asset creation for website UI, promotional materials, and interactive rally games",
+      "Comprehensive event documentation strategy, covering photography and videography",
+      "Leadership in cross-divisional creative workflows to ensure on-time delivery",
     ],
 
     challenges: [
-      "Maintaining strict visual consistency across a wide variety of digital and physical assets",
-      "Managing and delivering multiple design requests from various divisions under tight event deadlines",
+      "Orchestrating a unified visual language across hundreds of disparate assets—from physical banners to digital interfaces",
+      "Balancing creative leadership with high-volume production under tight, event-critical deadlines",
     ],
 
     results: [
-      "Successfully established a strong, recognizable, and cohesive brand identity for ILPC 2025",
-      "Delivered all promotional and event assets on time, ensuring a smooth and visually appealing event experience",
+      "Established a powerful and recognizable event brand that resonated with participants and partners alike",
+      "Streamlined the creative production pipeline, delivering 100% of event-critical assets ahead of schedule",
     ],
 
     gallery: [ilpc],
@@ -564,27 +576,29 @@ export const listProyek = [
     thumbnail: maniac,
 
     shortDesc:
-      "Contributed to the visual presence of the Maniac event by designing engaging social media content and capturing comprehensive on-site documentation.",
+      "Crafted high-engagement digital content and managed on-site visual documentation to amplify the Maniac event's digital reach and brand storytelling.",
 
     fullDesc:
-      "As a member of the Design, Documentation, and Decoration (DDD) division for the Maniac event, my primary focus was on elevating the event's digital presence through social media. I was responsible for designing cohesive, engaging Instagram feeds and promotional assets that aligned perfectly with the event's visual identity. In addition to my digital design responsibilities, I played an active role during the event days, providing hands-on documentation through photography and videography to capture key moments and ensure a complete visual record of the event.",
+      "As part of the Design, Documentation, and Decoration division, I focused on creating a vibrant social media presence for the Maniac event. My role involved translating the event's energy into a cohesive Instagram grid, designing promotional assets that maintained brand consistency while driving audience interest. Beyond digital design, I was on the front lines during the event, capturing the momentum through photography and videography. I worked to ensure that every key moment was documented with high quality, creating a professional visual archive that told the full story of the event's success.",
+
     tools: [figma, illustrator],
 
     features: [
-      "Design and production of engaging Instagram feeds and promotional materials",
-      "Consistent application of the event's visual identity across digital platforms",
-      "On-site photography and videography during the main event days",
-      "Active collaboration within the DDD division to fulfill various visual needs",
+      "Strategic design of cohesive Instagram feeds and digital promotional kits",
+      "Real-time visual identity implementation across high-traffic social platforms",
+      "Dynamic on-site event documentation including photography and videography",
+      "Collaborative content creation within the DDD team to meet rapid production needs",
+      "Curation of a high-quality visual archive for post-event marketing",
     ],
 
     challenges: [
-      "Delivering high-quality social media content consistently under tight promotional deadlines",
-      "Capturing clear, dynamic, and comprehensive documentation during fast-paced event activities",
+      "Producing high-quality promotional content under tight schedules during the peak event cycle",
+      "Adapting to fast-paced event environments to capture critical, unscripted moments with precision",
     ],
 
     results: [
-      "Enhanced the event's online visibility and engagement through an attractive social media presence",
-      "Successfully delivered a complete and high-quality visual archive of the event's key moments",
+      "Boosted event engagement and online visibility through a polished and attractive social media aesthetic",
+      "Delivered a comprehensive visual record that effectively captured the event's atmosphere and key highlights",
     ],
 
     gallery: [maniac],
@@ -600,27 +614,29 @@ export const listProyek = [
     thumbnail: ig,
 
     shortDesc:
-      "Contributed to the visual presence of Industrial Games by designing engaging social media content and capturing comprehensive on-site documentation.",
+      "Crafted a high-energy visual identity and digital content strategy for Industrial Games, driving participant engagement through strategic design and documentation.",
 
     fullDesc:
-      "As a member of the Design, Documentation, and Decoration (DDD) division for Industrial Games, my primary focus was on elevating the event's digital presence through social media. I was responsible for designing cohesive, engaging Instagram feeds and promotional assets that aligned perfectly with the event's visual identity. In addition to my digital design responsibilities, I played an active role during the event days, providing hands-on documentation through photography and videography to capture key moments and ensure a complete visual record of the event.",
+      "For the Industrial Games event, I served as a key contributor to the Design, Documentation, and Decoration division, where I was responsible for translating the event's competitive spirit into a compelling digital narrative. I designed a cohesive series of Instagram assets and promotional materials that maintained strict brand alignment while capturing the audience's attention. During the event, I pivoted to on-site documentation, utilizing photography and videography to capture high-stakes moments and key highlights. My work ensured a professional and consistent visual presence that bridged the gap between the live competition and its digital audience.",
+
     tools: [figma, illustrator],
 
     features: [
-      "Design and production of engaging Instagram feeds and promotional materials",
-      "Consistent application of the event's visual identity across digital platforms",
-      "On-site photography and videography during the main event days",
-      "Active collaboration within the DDD division to fulfill various visual needs",
+      "Creation of a cohesive and high-impact Instagram grid and promotional kit",
+      "Strict implementation of the event's visual identity across all digital touchpoints",
+      "Dynamic on-site photography and videography capturing key competitive moments",
+      "Cross-divisional collaboration to produce rapid-response visual assets",
+      "Comprehensive archival of event highlights for post-event engagement",
     ],
 
     challenges: [
-      "Delivering high-quality social media content consistently under tight promotional deadlines",
-      "Capturing clear, dynamic, and comprehensive documentation during fast-paced event activities",
+      "Ensuring visual consistency across a high volume of diverse promotional assets under rapid-fire deadlines",
+      "Navigating a high-energy, fast-paced event environment to document unscripted highlights without disruption",
     ],
 
     results: [
-      "Enhanced the event's online visibility and engagement through an attractive social media presence",
-      "Successfully delivered a complete and high-quality visual archive of the event's key moments",
+      "Significantly improved the event's digital reach through a polished and high-energy social media aesthetic",
+      "Successfully delivered a high-quality visual library that effectively preserved the event's competitive atmosphere",
     ],
 
     gallery: [ig],

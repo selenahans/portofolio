@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { listProyek } from "../data";
+import { listProyek, listTools } from "../data";
 
 const ProjectDetail = () => {
   const { slug } = useParams();
@@ -50,7 +50,7 @@ const ProjectDetail = () => {
                 src={tool}
                 alt="tech-icon"
                 className="w-7 h-7 object-contain transition-all"
-                title="Technology Tool"
+                title={listTools[index]?.nama || "Unknown Tool"}
               />
             ))}
           </div>
